@@ -1,23 +1,15 @@
 ---
 title: T400 mods
 description: A collection of ways you can mod a Thinkpad T400
-date = 2023-09-08T16:29:32+02:00
-draft = false
+date: 2023-09-08 00:00:00+0000
+categories:
+        - Thinkpad
+        - Libreboot
+tags:
+        - thinkpad
+        - libreboot
 ---
 
----
-title: My T400 Libreboot Guide
-description: Simplest Libreboot guide I can write
-date: 2024-01-22 00:00:00+0000
-image: libreboot.png
-categories:
-    - Libreboot
-    - Thinkpad
-tags:
-    - libreboot
-    - thinkpad
-    - bios
----
 # thinkpad t400 setup
 
 my daily driver is the Thinkpad T400, the most powerful laptop that you can libreboot to remove completely the propietary Lenovo BIOS in favor of a fully open source BIOS.
