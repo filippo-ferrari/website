@@ -1,6 +1,7 @@
 ---
 title: My linux userspace
 description: A collection of tools i use in my workflow
+image: linux.png
 date: 2023-09-07 00:00:00+0000
 categories:
         - Linux
