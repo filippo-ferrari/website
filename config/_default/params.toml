@@ -13,13 +13,13 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#emoji = "🍥"
+subtitle = "I will post stuff mainly because i want to document my journey in the software development world and to keep track of my projects, conferences i go to and stuff i learn. One day, with enough knowledge, patience and hard work (or by pure chance) these contents will be useful to someone."
 
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/avatar.jpg"
 
 [article]
 math = false

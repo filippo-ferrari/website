@@ -1,0 +1,69 @@
+{{ $json := getJSON "data/talks.json" }}
+
+<!-- Extract unique locations -->
+{{ $locations := slice }}
+{{ range $json.talks }}
+    {{ $location := .location }}
+    {{ if not (in $locations $location) }}
+        {{ $locations = $locations | append $location }}
+    {{ end }}
+{{ end }}
+
+<!-- Display location buttons -->
+<div id="locationButtons">
+    {{ range $locations }}
+        <!-- Apply inline styles to the button -->
+        <button class="locationButton" data-location="{{ . }}" style="font-family: 'Open Sans', sans-serif; font-size: 16px; letter-spacing: 2px; text-decoration: none; text-transform: uppercase; color: #000; cursor: pointer; border: 3px solid; padding: 0.25em 0.5em; box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px; position: relative; user-select: none; -webkit-user-select: none; touch-action: manipulation;">
+            {{ . }}
+        </button>
+    {{ end }}
+</div>
+
+<!-- Display talks for each location -->
+{{ range $locations }}
+    <div class="talksContainer" id="talks_{{ . }}" style="display: none;">
+        <ul>
+            {{ $currentLocation := . }}
+            {{ range $json.talks }}
+                {{ if eq .location $currentLocation }}
+                    <li>
+                        <strong>Title:</strong> {{ .title }}<br>
+                        {{ with .subtitle }}
+                            {{ if ne . "" }}
+                                <strong>Subtitle:</strong> {{ . }}<br>
+                            {{ end }}
+                        {{ end }}
+                        {{ if isset . "speakers" }}
+                            {{ $speakers := .speakers }}
+                            {{ if ne (len $speakers) 0 }}
+                                <strong>Speakers:</strong> 
+                                {{ range $index, $speaker := $speakers }}
+                                    {{ $speaker }}
+                                    {{ if ne $index (sub (len $speakers) 1) }}, {{ end }}
+                                {{ end }}<br>
+                            {{ end }}
+                        {{ end }}
+                        <strong>Location:</strong> {{ .location }}<br>
+                        <strong>Date:</strong> {{ .date }}<br>
+                        <strong>URL:</strong> <a href="{{ .url }}" target="_blank">{{ .url }}</a><br>
+                        <strong>Description:</strong> {{ .description }}<br><br>
+                    </li>              
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}
+
+<script>
+    // Add click event listener to location buttons
+    var locationButtons = document.getElementsByClassName("locationButton");
+    for (var i = 0; i < locationButtons.length; i++) {
+        locationButtons[i].addEventListener('click', function() {
+            var location = this.dataset.location;
+            var talksContainer = document.getElementById("talks_" + location);
+            // Toggle visibility of talks container
+            talksContainer.style.display = talksContainer.style.display === "none" ? "block" : "none";
+        });
+    }
+</script>
+
