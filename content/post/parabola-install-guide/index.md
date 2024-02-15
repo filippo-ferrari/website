@@ -12,8 +12,6 @@ tags:
       - systemd
 ---
 
-# Parabola Installation Guide
-
 This is a guide on how to install parabola that i created to have a reference for my eventual future installations on a librebooted system.
 I decided to write this because I found that following the original guide in the Parabola wiki was not sufficent if you want to have an encrypted disk and no systemd in your system.
 Still, this is to be considered just a recap of what you will need to to if you want to install Parabola this way, do not consider this official (or even unofficial) documentation at all.
@@ -23,12 +21,12 @@ some info on [Parabola GNU/Linux-libre](https://www.parabola.nu/)
 I will assume that you already created a bootable drive of some kind with an image of Parabola CLI Edition that you can download from here: [download](https://wiki.parabola.nu/Get_Parabola)\
 I won't cover how to do so beacuse there are already hundreds of guides that perfectly teach you how to do it on every system with every image using every technique available.
 
-# Check if you have a UEFI machine or not
+## Check if you have a UEFI machine or not
 Type the following command to check if you have a UEFI machine or not, and keep that in mind, we will use this information later
 ```
 ls /sys/firmware/efi/efivars
 ```
-# Format your drive
+## Format your drive
 The choice of partitions and filesystems is a matter of preference, and beyond the scope of this install guide. You can look at the Parabola wiki to know more.
 If you already know what do you want and how you want it, you can skip this part.
 
@@ -76,21 +74,21 @@ Created a new partition 1 of type 'Linux' and of size X.XX GiB.
 Modify the last sector if you need a specific amount of memory or leave it blank to take the entire free space of your drive.
 It might ask you to remote an already present signature, in that case just remote it by pressing **Y** when asked to.
 
-# Filesystem of boot partition
+## Filesystem of boot partition
 
 We are now gonna put a filesystem on the first partition, I use FAT partitioning beacuse it is versatile since it's compatibile with both legacy boot and UEFI.
 ```
 mkfs.fat -F32 /dev/sdX1
 ```
 
-# Encrypt the second partition
+## Encrypt the second partition
 To encrypt out partition we run the command:
 ```
 cryptsetup luksFormat /dev/sdX2
 ```
 You be ask to confirm the choice by typing **YES** and you will be asked to insert the passphrase for the partition.
 
-# Decrypt sdX2
+## Decrypt sdX2
 ```
 cryptsetup open /dev/sdX2 partition-name
 ```
@@ -103,13 +101,13 @@ nvme0n1             259:0    0 476.9G  0 disk
 └─nvme0n1p2         259:2    0 475.9G  0 part
   └─partition-name  254:0    0 475.9G  0 crypt 
 
-# Create filesystem for partition-name
+## Create filesystem for partition-name
 Create a [btrfs](https://wiki.archlinux.org/title/btrfs) partition on the decrypted partition
 ```
 mkfs.btrfs dev/mapper/partition-name
 ```
 
-# Mount both partition
+## Mount both partition
 Mount the two partitions starting with partition-name:
 ```
 mount /dev/mapper/partition-name /mnt
@@ -130,14 +128,14 @@ nvme0n1             259:0    0 476.9G  0 disk
 └─nvme0n1p2         259:2    0 475.9G  0 part
   └─partition-name  254:0    0 475.9G  0 crypt /mnt
 ```
-# (optional) Change mirrors
+## (optional) Change mirrors
 You might want to change the mirrors order to make installation of packages faster by going into this file (use your favorite text editor):
 ```
 /etc/pacman.d/mirrorlist
 ```
 From the list, move the servers that are closer to you to the top so that they will be the first ones to be chosen.
 
-# Install packages into the system
+## Install packages into the system
 Install the needed packages into the ```/mnt``` partition, add what you know you will need:
 ```
 pacstrap /mnt base base-devel linux-libre linux-libre-firmware btrfs-progs grub networkmanager cryptsetup lvm2 vim neovim
@@ -159,12 +157,12 @@ packages needed for encrypting and decrypting the drive
 - vim and neovim:\
 i mean you know why
 
-# Chroot into your system
+## Chroot into your system
 ```
 arch-chroot /mnt bash
 ```
 
-# Set the timezone and set the hardware clock
+## Set the timezone and set the hardware clock
 just run:
 ```
 ln -s /usr/share/zoneinfo/Europe/Rome /etc/localtime
@@ -176,7 +174,7 @@ Then synch the hardware clock with the system clock:
 hwclock --systhoc
 ```
 
-# Setup keyboard layout and language
+## Setup keyboard layout and language
 Edit the locale.gen file:
 ```
 nvim /etc/locale.gen
@@ -196,7 +194,7 @@ Run the locale-gen command:
 ```
 locale-gen
 ```
-# Name your computer
+## Name your computer
 Run:
 ```
 echo "myhostname" > /etc/hostname
@@ -213,13 +211,13 @@ and add the follwing lines:
 127.0.1.1   myhostname.localdomain myhostname
 ```
 
-# Enable NetworkManager service
+## Enable NetworkManager service
 run:
 ```
 systemctl enable NetworkManager.service
 ```
 
-# Add a user and set his groups and password
+## Add a user and set his groups and password
 First add a password to your root with:
 ```
 passwd
@@ -234,7 +232,7 @@ Set the user user password:
 passwd user
 ```
 
-# Edit the mkinitcpio configuration
+## Edit the mkinitcpio configuration
 Edit the **mkinitcpio.conf** file:
 ```
 nvim /etc/mkinitcpio.conf
@@ -258,7 +256,7 @@ Update the conf by typing:
 mkinitcpio -p linux-libre
 ```
 
-# Make the system able to decrypt the partition
+## Make the system able to decrypt the partition
 Start by exiting the partition:
 ```
 exit
@@ -278,7 +276,7 @@ Go back into your system:
 arch-chroot /mnt bash
 ```
 
-# Edit GRUB to make the system able to encrypt and decrypt the partition
+## Edit GRUB to make the system able to encrypt and decrypt the partition
 Enter the following file:
 ```
 nvim /etc/default/grub
@@ -320,7 +318,7 @@ the **GRUB_CMDLINE_LINUX_DEFAULT** should look like this:
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet cryptdevice=UUID=33dd1b52-a543-4143-8bf8-004390e411e0:cryptlvm root=UUID=b720a64e-fdf2-462e-9231-d1a35ae2654e" 
 ```
 
-# Install Grub bootloader
+## Install Grub bootloader
 Install GRUB for UEFI devices:
 
 **esp** denotes the mountpoint of the EFI system partition
@@ -340,5 +338,5 @@ grub-mkconfig -o /boot/grub/grub.cfg
 Now you can unmount your partitions, remove your bootable device and reboot the system.
 You now a have a fully libre system, you chad.
 
-# Migrate to Open-RC
+## Migrate to Open-RC
 For maximum chad-status you have to remote systemD in favour of Open-RC, the Parabola wiki has a section on how to do so [HERE](https://wiki.parabola.nu/OpenRC)
