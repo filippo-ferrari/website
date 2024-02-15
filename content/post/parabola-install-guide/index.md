@@ -340,3 +340,22 @@ You now a have a fully libre system, you chad.
 
 ## Migrate to Open-RC
 For maximum chad-status you have to remote systemD in favour of Open-RC, the Parabola wiki has a section on how to do so [HERE](https://wiki.parabola.nu/OpenRC)
+
+First, upgrade your currently installed packages from your currently configured repositories: 
+```
+pacman -Syyuu
+```
+Then, add the following lines in /etc/pacman.conf:
+```
+[nonsystemd]
+Include = /etc/pacman.d/mirrorlist
+
+# Enable [nonsystemd-multilib] only if you have [multilib] enabled
+#[nonsystemd-multilib]
+#Include = /etc/pacman.d/mirrorlist
+```
+Next, replace your currently installed packages with those from the [nonsystem] repo. 
+```
+pacman -Syyuu
+```
+
