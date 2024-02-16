@@ -541,6 +541,42 @@
       "description": "Getting to Know the Linux Kernel: A Beginner's Guide offers a comprehensive overview of the Linux kernel and its open source community. The talk covers the essential aspects of the Linux kernel, including its role as the core component of the Linux operating system, its structure and architecture, and the development process. This presentation will take a closer look at the design of the Linux kernel, including how it is structured, how it can be modified, and how it manages resources",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Broom not included: curling the modern way",
+      "speakers": ["Daniel Stenberg"],
+      "date": "2024-02-02T10:50:00",
+      "location": "Fosdem23",
+      "tags": ["network", "curl"],
+      "url": "https://ftp.fau.de/fosdem/2024/ub5230/fosdem-2024-1909-broom-not-included-curling-the-modern-way.mp4",
+      "duration": "PT20M",
+      "description": "Everyone uses curl, the swiss army knife of Internet transfers. Earlier this year we celebrated curl's 25th birthday, and while this tool has provided a solid set of command line options for decades, new ones are added over time This talk is a look at some of the most powerful and interesting additions to curl done in recent years. The perhaps lesser known curl tricks that might enrich your command lines, extend your tool belt and make you more productive. Also trurl, the recently created companion tool for URL manipulations you maybe did not realize you want.",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "U-Boot for modern Qualcomm phones",
+      "speakers": ["Caleb Connolly"],
+      "date": "2024-02-02T11:00:00",
+      "location": "Fosdem23",
+      "tags": ["linux", "mobile", "uboot"],
+      "url": "https://ftp.fau.de/fosdem/2024/h1309/fosdem-2024-1716-u-boot-for-modern-qualcomm-phones.mp4",
+      "duration": "PT25M",
+      "description": "Bootloaders are one of the biggest pain points when it comes to booting upstream Linux on Qualcomm devices, they require that distros support 5 versions of the Android boot image header, weird non-standard devicetree properties, and are generally a huge headache. As modifying the bootloader is out of the question, we can at least replace the environment it gives us with a more sensible one...In this talk, I'll give a brief introduction to what an EFI bootloader actually is, how they work, and how U-Boot fits into the picture as a second-stage bootloader. I'll cover the work I've been doing to improve Qualcomm support in upstream U-Boot, and how we can drastically lower the barrier of entry for distro support on Qualcomm phones.Lastly, I'll go over the new process for porting a Qualcomm SoC to U-Boot, and demo booting Linux with EFI runtime support on a Qualcomm phone.I'll also give a sneak peak at what would be possible if we had greater ownership of our devices.",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "The Linux Phone App Ecosystem",
+      "speakers": ["1peter10"],
+      "date": "2024-02-02T13:15:00",
+      "location": "Fosdem23",
+      "tags": ["linux", "mobile"],
+      "url": "https://ftp.fau.de/fosdem/2024/h1309/fosdem-2024-3303-the-linux-phone-app-ecosystem.mp4",
+      "duration": "PT40M",
+      "description": "Okay, this Linux on Phones thing ... but it has no apps, right? It has apps - Sailfish OS and Ubuntu Touch have dedicated app stores, and the newer projects also have many well working apps.This talk attempts to cover it all - from frameworks to metadata, stengths, weaknesses, highlights, difficulties and gaps.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
