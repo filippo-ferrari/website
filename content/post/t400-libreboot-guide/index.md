@@ -12,11 +12,7 @@ tags:
     - bios
 ---
 
-[DRAFT] // It's a fucking DRAFT, WAIT
-
-# The bestest most amazing T400 setup possible
-
-**T400? Why? TODO**
+# [DRAFT] // It's a fucking DRAFT, WAIT A SEC DUD
 
 The first step is to flash libreboot on your T400, the libreboot docs have a ton of information about installing libreboot on any compatible device, but I found it confusing to read given the huge amount of information on the site and the way they are structured. If you're not yet knowledgeable on the matter and you "just" want to libreboot your T400 (or X200), you might want to follow a simpler guide with just the must-know information and not much else.
 
