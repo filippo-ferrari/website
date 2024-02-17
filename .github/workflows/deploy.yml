@@ -1,50 +1,57 @@
-name: Deploy to Home Server
+name: Publish Blog
 
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+on: push
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  deploy:
 
-    permissions:
-      contents: write
+    runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v3
 
-      - name: Cache Hugo resources
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-hugo-resources
-        with:
-          path: resources
-          key: ${{ env.cache-name }}
+      # CHEKCOUT REPOSITORY
 
-      - uses: actions/setup-go@v4
-        with:
-          go-version: "^1.17.0"
+      - name: Git checkout
+        uses: actions/checkout@v3
 
-      - run: go version
+      # SETUP HUGO
+
+      # Read environemnt variable for subsequent actions.
+      # See: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable 
+      - name: Read .env
+        run: |
+          . ./.env
+          echo "HUGO_VERSION=${HUGO_VERSION}" >> $GITHUB_ENV          
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
+          hugo-version: '${{ env.HUGO_VERSION }}'
           extended: true
 
-      - name: Build
-        run: hugo --minify --gc
-
-      - name: Deploy 🚀
-        uses: easingthemes/ssh-deploy@v2
+      - name: Cache Hugo
+        uses: actions/cache@v3
         with:
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          local: ./public
-          remote: /var/www/html/
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-            
 
+      - name: Build Blog
+        env:
+          TZ: 'Europe/Rome'
+        run: hugo --minify
+
+      # DEPLOY TO REMOTE SERVER
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.PRIVATE_SSH_KEY }} 
+          known_hosts: 'placeholder'
+
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H ${{ secrets.DEPLOY_HOST_IP }} >> ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        run: rsync -avz --delete ./public/ ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST_IP }}:${{ secrets.DEPLOY_PATH }}
