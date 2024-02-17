@@ -589,6 +589,30 @@
       "description": "Discover the secrets of PineTime ⌚ and InfiniTime, the smartwatch and its open-source operating system. Learn how to begin hacking, enhance its capabilities with Ubuntu Touch, and understand the coexistence of various mobile ecosystems. Explore the synergy between hardware hacking and 📱 mobile development.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Towards a bright future with Mobian?",
+      "speakers": ["Arnaud Ferraris"],
+      "date": "2024-02-02T17:30:00",
+      "location": "Fosdem24",
+      "tags": ["mobile", "linux"],
+      "url": "https://ftp.fau.de/fosdem/2024/h1309/fosdem-2024-3290-towards-a-bright-future-with-mobian-.mp4",
+      "duration": "PT25M",
+      "description": "Mobile Linux is no longer a new thing, and we reached a point where many users daily drive Linux-based phones, which are getting more usable over time. Despite being a significant improvement, there are still a lot of challenges to overcome and many more problems to solve.This talk will highlight the progress and latest developments in Mobian, emphasizing the specific community-wide issues those try to address. We will also present and discuss our plans for the foreseeable future, as well as the improvements we're contributing to the wider ecosystem in the process.",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "I want my own cellular network! Having fun with LTE networks and Open5Gs.",
+      "speakers": ["Alessandro Arcieri"],
+      "date": "2024-02-02T176:45:00",
+      "location": "Fosdem24",
+      "tags": ["lte", "network"],
+      "url": "https://ftp.fau.de/fosdem/2024/ub5230/fosdem-2024-3062-i-want-my-own-cellular-network-having-fun-with-lte-networks-and-open5gs-.mp4",
+      "duration": "PT20M",
+      "description": "Have you ever wondered how your cellphone actually works? Yes, there are cell towers, big antennas, huge buildings with lots of cables inside. But what is the magic that makes everything work every day on a million user scale? This talk aims to keep a less theoretical and more pragmatic approach, explaining the practical aspects of LTE networks. The presentation will begin with an overview of specific binary protocols, detailing some of the main network functions, and eventually delving into the key role of both DNS servers and Diameter protocol. Hopefully, at the end, everybody should be able to go home and fire up their own personal LTE network in a box with Open5Gs open-source core implementation.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
