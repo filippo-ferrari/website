@@ -555,6 +555,18 @@
       "attended": true
     },
     {
+      "title": "GRUB - Project Status Update",
+      "speakers": ["Daniel Kiper"],
+      "date": "2024-02-03T15:20:00",
+      "location": "Fosdem24",
+      "tags": ["bootloader", "grub"],
+      "url": "https://mirrors.dotsrc.org/fosdem/2024/aw1126/fosdem-2024-3099-grub-project-status-update.mp4",
+      "duration": "PT25M",
+      "description": "The presentation will discuss current state of GRUB upstream development.",
+      "liked": true,
+      "attended": true
+    },
+    {
       "title": "U-Boot for modern Qualcomm phones",
       "speakers": ["Caleb Connolly"],
       "date": "2024-02-02T11:00:00",
