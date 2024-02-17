@@ -577,6 +577,18 @@
       "description": "Okay, this Linux on Phones thing ... but it has no apps, right? It has apps - Sailfish OS and Ubuntu Touch have dedicated app stores, and the newer projects also have many well working apps.This talk attempts to cover it all - from frameworks to metadata, stengths, weaknesses, highlights, difficulties and gaps.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "PineTime: A Programmer's Toy and Beyond",
+      "speakers": ["Jozef Mlich", "Jean-François Milants"],
+      "date": "2024-02-02T18:30:00",
+      "location": "Fosdem23",
+      "tags": ["pine64", "pinetime"],
+      "url": "https://ftp.fau.de/fosdem/2024/h1309/fosdem-2024-3319-pinetime-a-programmer-s-toy-and-beyond.mp4",
+      "duration": "PT25M",
+      "description": "Discover the secrets of PineTime ⌚ and InfiniTime, the smartwatch and its open-source operating system. Learn how to begin hacking, enhance its capabilities with Ubuntu Touch, and understand the coexistence of various mobile ecosystems. Explore the synergy between hardware hacking and 📱 mobile development.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
