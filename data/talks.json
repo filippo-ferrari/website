@@ -673,6 +673,42 @@
       "description": "In this talk, I'll present Sequoia's architecture (library first), our design philosophy (usable, low-level, unopinionated interfaces, which are secure by default and are complemented by high-level opinionated interfaces), and the status of the project (we released 1.0 of our low-level library in December 2020, and are currently working towards 1.0 releases of our higher-level libraries and services).",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "You too could have made curl!",
+      "speakers": ["Daniel Stenberg"],
+      "date": "2024-02-03T10:00:00",
+      "location": "Fosdem24",
+      "tags": ["curl"],
+      "url": "https://ftp.fau.de/fosdem/2024/k1105/fosdem-2024-1931-you-too-could-have-made-curl-.mp4",
+      "duration": "PT50M",
+      "description": "Daniel has taken the curl project to run in some 20 billion installations. He talks about what it takes to succeed with Open Source: patience, time, ups and downs, cooperation, fighting your impostor syndrome - all while having fun. There's no genius or magic trick behind successful open source. You can do it. The talk will of course be spiced up with anecdotes, experiences and stories from Daniel's 25 years of leading the curl project.",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Sega Dreamcast Homebrew with GCC",
+      "speakers": ["Falco Girgis"],
+      "date": "2024-02-03T12:25:00",
+      "location": "Fosdem24",
+      "tags": ["gcc", "dreamcast"],
+      "url": "https://ftp.fau.de/fosdem/2024/k4201/fosdem-2024-2634-sega-dreamcast-homebrew-with-gcc.mp4",
+      "duration": "PT20M",
+      "description": "One of the greatest strengths of GCC is the sheer volume of architectures which it can target, many of which are niche or legacy platforms. But how has this support translated into real-world utility? How well are some of these platforms still supported? Using the Sega Dreamcast and its SH4 CPU as a case-study, we take a look at just how far GCC is allowing its homebrew community to take the platform, providing modern C23, C++23, Objective-C, D, and even some Rust to the 1990s game console.",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Gameboy Advance hacking for retrogamers",
+      "speakers": ["Daniele Scasciafratte "],
+      "date": "2024-02-03T14:15:00",
+      "location": "Fosdem24",
+      "tags": ["nintendo", "gameboy"],
+      "url": "https://ftp.fau.de/fosdem/2024/ub5230/fosdem-2024-1771-gameboy-advance-hacking-for-retrogamers.mp4",
+      "duration": "PT20M",
+      "description": "Discover the opportunity in retrogaming with the Gameboy Advance, from homebrew to how to do a game in pure Lua (yes I am not joking) or to make a trainer to a Lua script in the emulator. The GBA is a particular device, compared to the Gameboy Color, which allows many more things for the world of homebrew and retrogaming by exploiting current technologies. We will see the technical peculiarities, the most famous decompilations, how to manipulate RAM with an emulator, how to make a ROM in Lua, how to make a trainer, the most common hardware mods, how to make a Lua script for Mgba with Lua and much more. In short, everything you need to know about the GBA even if you don't understand anything about Assembly!",
+      "liked": true,
+      "attended": true
     }
   ]
 }
