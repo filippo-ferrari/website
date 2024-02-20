@@ -11,6 +11,6 @@ tags:
     - events
     - conferences
 ---
-This are most (if not all) of the talks that ive seen, either online or live during conferences and events i have traveled to.\
+This are most (if not all(no way they are even close to being all, i dont know why i said that)) of the talks that ive seen, either online or live during conferences and events i have traveled to.\
 They are divided by event, in the future i might create some kind of filtering system. URLs are provided when available.
 {{< talks >}}

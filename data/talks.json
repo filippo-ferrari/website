@@ -721,6 +721,66 @@
       "description": "Modos is an open-hardware and open-source company, building an ecosystem of E Ink devices to reimagine personal computing with a focus on creating calm, inclusive, and humane technology. In this talk, we will briefly discuss the underlying technology, present findings from our community survey, and the challenges faced while developing our display controller and chassis. We will also outline our next steps and future direction.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Steal Everything, Kill Everyone, Cause Total Financial Ruin! ",
+      "speakers": ["Jayson E. Street"],
+      "date": "2012-02-13T12:00:00",
+      "location": "DEFCON19",
+      "tags": ["social-engineering", "hacking"],
+      "url": "https://www.youtube.com/watch?v=JsVtHqICeKE",
+      "duration": "PT40M",
+      "description": "This is not a presentation where I talk about how I would get in or the things I might be able to do. This is a talk where I am already in and I show you pictures from actual engagements that I have been on. They say one picture is worth a thousand words I show you how one picture cost a company a million dollars and maybe even a few lives. In a community where we focus so much on the offensive I also make sure with every attack I highlight. I spend time discussing what would have stopped me. We need to know the problems but we need more talks providing solutions and that is what I hope people will get from this. I show the dangers of Social engineering and how even an employee with no SE experience can be an eBay James Bond which can cause total financial ruin to a company. These Security threats are real. So are these stories!",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Spoofing Emails From 2M+ Domains & Virtually Becoming Satan",
+      "speakers": ["Marcello ~byt3bl33d3r~ Salvati"],
+      "date": "2023-06-11T11:00:00",
+      "location": "DEFCON31",
+      "tags": ["email", "hacking"],
+      "url": "https://www.youtube.com/watch?v=NwnT15q_PS8",
+      "duration": "PT40M",
+      "description": "Ever wake up and ask yourself: “Damn, how could I make email security suck even more today”? Tired of your Red Teams phishing emails not landing in your targets inbox? Do you dislike Boston (the city) and love Satan? If you answered yes to any of those questions you should come to this talk!",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "War Stories - The Risks of Pointing Out the Emperor is Buck Naked",
+      "speakers": ["Renderman & Thomas Dang"],
+      "date": "2023-06-10T13:30:00",
+      "location": "DEFCON31",
+      "tags": ["disclosure", "government", "hacking"],
+      "url": "https://www.youtube.com/watch?v=fL1osBUEScY",
+      "duration": "PT45M",
+      "description": "This talk will cover the presenters personal experiences with poorly written or a lack of vulnerability disclosure policies with their governments and what it cost them in trying to make things better. The presentation will then move to a discussion about what should be done and what is being done to make sure that reporting a vulnerability doesn’t cost you everything. Anyone who is responsible for writing such disclosure policies or legislation will benefit, but so will any hackers that want to make it safer to report issues they find by advocating for changes.",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "War Stories - Tracking the Worlds Dumbest Cyber Mercenaries",
+      "speakers": ["Cooper Quintin"],
+      "date": "2023-06-11T14:30:00",
+      "location": "DEFCON31",
+      "tags": ["hacking"],
+      "url": "https://www.youtube.com/watch?v=zccAvgC4UxU",
+      "duration": "PT20M",
+      "description": "For the last 6 years my colleagues and I have been tracking the activities of the cyber-mercenaries we call Dark Caracal. In this time we have observed them make a number of hilarious mistakes which have allowed us to gain crucial insights into their activities and victims. In this talk we will discuss the story of Dark Caracal, the mistakes they have made, and how they have managed to remain effective despite quite possibly being the dumbest APT to ever exist.",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Infinite Money Glitch - Hacking Transit Cards",
+      "speakers": ["Matthew Harris", "Zachary Bertocchi", "Scott Campbell", "Noah Gibson"],
+      "date": "2023-06-10T10:00:00",
+      "location": "DEFCON31",
+      "tags": ["hacking"],
+      "url": "https://www.youtube.com/watch?v=1JT_lTfK69Q",
+      "duration": "PT45M",
+      "description": "Who likes paying to ride the subway? Sure, you could hop the fare gates, but that can be athletically challenging and simply isn’t cool enough for our tastes. What’s a mischievous and miserly rider to do, then? Hack the fare system of course! In this talk we'll walk you through how we, four high school students and cybersecurity noobs became the first to fully reverse engineer Boston’s CharlieCard fare system and earn ourselves free rides for life… or at least until the system gets fixed, whichever comes first.",
+      "liked": true,
+      "attended": false
     }
   ]
 }
