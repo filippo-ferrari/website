@@ -26,6 +26,7 @@ the [F] tag means that the book is available freely online. A great starting poi
 - Design Patterns: Elements of Reusable Object-Oriented Software
 - The C Programming Language
 - Crypto Dictionary: 500 Tasty Tidbits for the Curious Cryptographer
+- [Everything cURL](https://everything.curl.dev/) (more of a guide than a book, also available as PDF)
 # Open Source/ Free software
 - La cattedrale e il bazaar
 - Open non e' Free [F]
