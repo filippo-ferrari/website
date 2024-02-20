@@ -709,6 +709,18 @@
       "description": "Discover the opportunity in retrogaming with the Gameboy Advance, from homebrew to how to do a game in pure Lua (yes I am not joking) or to make a trainer to a Lua script in the emulator. The GBA is a particular device, compared to the Gameboy Color, which allows many more things for the world of homebrew and retrogaming by exploiting current technologies. We will see the technical peculiarities, the most famous decompilations, how to manipulate RAM with an emulator, how to make a ROM in Lua, how to make a trainer, the most common hardware mods, how to make a Lua script for Mgba with Lua and much more. In short, everything you need to know about the GBA even if you don't understand anything about Assembly!",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Modos: Building an Ecosystem of Open-Hardware E Ink Devices",
+      "speakers": ["Alexander Soto"],
+      "date": "2024-02-03T12:35:00",
+      "location": "Fosdem24",
+      "tags": ["eink"],
+      "url": "https://ftp.fau.de/fosdem/2024/h1308/fosdem-2024-3052-modos-building-an-ecosystem-of-open-hardware-e-ink-devices.mp4",
+      "duration": "PT25M",
+      "description": "Modos is an open-hardware and open-source company, building an ecosystem of E Ink devices to reimagine personal computing with a focus on creating calm, inclusive, and humane technology. In this talk, we will briefly discuss the underlying technology, present findings from our community survey, and the challenges faced while developing our display controller and chassis. We will also outline our next steps and future direction.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
