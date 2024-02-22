@@ -781,6 +781,30 @@
       "description": "Who likes paying to ride the subway? Sure, you could hop the fare gates, but that can be athletically challenging and simply isn’t cool enough for our tastes. What’s a mischievous and miserly rider to do, then? Hack the fare system of course! In this talk we'll walk you through how we, four high school students and cybersecurity noobs became the first to fully reverse engineer Boston’s CharlieCard fare system and earn ourselves free rides for life… or at least until the system gets fixed, whichever comes first.",
       "liked": true,
       "attended": false
-    }
+    },
+    {
+      "title": "The D Programming Language for Modern Open Source Development",
+      "speakers": ["Mike Shah"],
+      "date": "2024-02-02T16:00:00",
+      "location": "Fosdem24",
+      "tags": ["dlang"],
+      "url": "https://ftp.fau.de/fosdem/2024/k1105/fosdem-2024-2092-the-d-programming-language-for-modern-open-source-development.mp4",
+      "duration": "PT50M",
+      "description": "The D programming language has been quietly growing for well over two decades. This modern programming language supports multiple programming paradigms, a range of memory safety features, and an ecosystem with 3 open source compilers. So why should an open source developer consider learning or using the D programming language? In this talk I will show examples of how D has replaced all of my Python code for my projects, and why I think D truly is a language that allows you to write fast, read fast, and run fast code. I will introduce the language, several of my favorite productivity features, and tools in the D programming language ecosystem. Throughout the talk, the audience will also be pointed to several open source tools written in the D language to be inspired from. Audience members looking for a new language to learn, or otherwise the programming language enthusiast may also benefit from a tour of the D language and its features.",
+      "liked": true,
+      "attended": true
+    },
+
+      "title": "GnuCOBOL, the Free Industrial-ready Alternative for COBOL!",
+      "speakers": ["Fabrice LE FESSANT"],
+      "date": "2024-02-02T14:00:00",
+      "location": "Fosdem24",
+      "tags": ["cobol", "gnu"],
+      "url": "https://ftp.fau.de/fosdem/2024/h2215/fosdem-2024-3249-gnucobol-the-free-industrial-ready-alternative-for-cobol-.mp4",
+      "duration": "PT15M",
+      "description": "The GnuCOBOL project, as an open-source solution, has recently achieved industrial maturity, positioning itself as a serious contender against proprietary offerings. This presentation will explore the advancements and significant developments that have propelled GnuCOBOL to a level of stability, performance, and features that rival existing proprietary solutions. We will delve into the characteristics that have contributed to this maturity, highlighting the flexibility, reliability, and accessibility of the COBOL language in an open-source context. By showcasing real-world use cases and examples of success, we will demonstrate how GnuCOBOL meets industrial needs while providing a free and ethical alternative.",
+      "liked": true,
+      "attended": true
+    },
   ]
 }
