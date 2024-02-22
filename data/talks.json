@@ -794,7 +794,7 @@
       "liked": true,
       "attended": true
     },
-
+    {
       "title": "GnuCOBOL, the Free Industrial-ready Alternative for COBOL!",
       "speakers": ["Fabrice LE FESSANT"],
       "date": "2024-02-02T14:00:00",
@@ -805,6 +805,6 @@
       "description": "The GnuCOBOL project, as an open-source solution, has recently achieved industrial maturity, positioning itself as a serious contender against proprietary offerings. This presentation will explore the advancements and significant developments that have propelled GnuCOBOL to a level of stability, performance, and features that rival existing proprietary solutions. We will delve into the characteristics that have contributed to this maturity, highlighting the flexibility, reliability, and accessibility of the COBOL language in an open-source context. By showcasing real-world use cases and examples of success, we will demonstrate how GnuCOBOL meets industrial needs while providing a free and ethical alternative.",
       "liked": true,
       "attended": true
-    },
+    }
   ]
 }
