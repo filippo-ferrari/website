@@ -15,10 +15,10 @@ url = "https://github.com/filippo-ferrari"
 [social.params]
 icon = "brand-github"
 
-#[[social]]
-#identifier = "twitter"
-#name = "Twitter"
-#url = "https://twitter.com"
+[[social]]
+identifier = "forgejo"
+name = "Forgejo"
+url = "https://git.bytemeifyoucan.lol/NapoleonDynamite"
 
 #[social.params]
-#icon = "brand-twitter"
+#icon = "img/forgejo"
