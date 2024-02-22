@@ -1,57 +1,49 @@
-name: Publish Blog
+  
 
-on: push
+name: build and deploy site
 
+# The trigger for the action
+on:
+  push:
+    branches:
+    - master
+
+# Jobs are contains steps
 jobs:
-  deploy:
-
-    runs-on: ubuntu-22.04
-
+  build_deploy:
+    name: build and deploy
+    # This job runs on linux
+    runs-on: ubuntu-latest
+    
     steps:
-
-      # CHEKCOUT REPOSITORY
-
-      - name: Git checkout
-        uses: actions/checkout@v3
-
-      # SETUP HUGO
-
-      # Read environemnt variable for subsequent actions.
-      # See: https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#setting-an-environment-variable 
-      - name: Read .env
-        run: |
-          . ./.env
-          echo "HUGO_VERSION=${HUGO_VERSION}" >> $GITHUB_ENV          
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '${{ env.HUGO_VERSION }}'
-          extended: true
-
-      - name: Cache Hugo
-        uses: actions/cache@v3
-        with:
-          path: /tmp/hugo_cache
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-            
-
-      - name: Build Blog
-        env:
-          TZ: 'Europe/Rome'
-        run: hugo --minify
-
-      # DEPLOY TO REMOTE SERVER
-
-      - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.PRIVATE_SSH_KEY }} 
-          known_hosts: 'placeholder'
-
-      - name: Adding Known Hosts
-        run: ssh-keyscan -H ${{ secrets.DEPLOY_HOST_IP }} >> ~/.ssh/known_hosts
-
-      - name: Deploy with rsync
-        run: rsync -avz --delete ./public/ ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST_IP }}:${{ secrets.DEPLOY_PATH }}
+    # The first step is provided by GitHub and it checks out 
+    # the master branch on the runner
+    - uses: actions/checkout@master
+      with:
+        submodules: true
+    
+    # This step uses an action created by a user which sets
+    # up Hugo on the runner and runs the hugo command to build
+    # the site
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+          hugo-version: '0.122.0'
+          
+    - name: Build
+      run: hugo --minify
+      
+	  # The last step deploys the site to my server by running 
+	  # the deploy script located in the ci directory 
+	  # within the repo
+    - name: deploy
+      run: source $GITHUB_WORKSPACE/ci/deploy.sh
+      env:
+	      # This section sets up the environment used by the 
+	      # deploy script. These values are injected from 
+	      # the repo's secret store
+        ACTIONS_DEPLOY_KEY: ${{ secrets.BDEPLOY_KEY }}
+        SSH_USERNAME: ${{ secrets.SSH_USER }}
+        SERVER_ADDRESS: ${{ secrets.SSH_SERVER }}
+        SERVER_DESTINATION: ${{ secrets.DEST_DIR }}
+        SSH_PORT: ${{ secrets.SSH_PORT }}
