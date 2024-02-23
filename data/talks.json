@@ -805,6 +805,18 @@
       "description": "The GnuCOBOL project, as an open-source solution, has recently achieved industrial maturity, positioning itself as a serious contender against proprietary offerings. This presentation will explore the advancements and significant developments that have propelled GnuCOBOL to a level of stability, performance, and features that rival existing proprietary solutions. We will delve into the characteristics that have contributed to this maturity, highlighting the flexibility, reliability, and accessibility of the COBOL language in an open-source context. By showcasing real-world use cases and examples of success, we will demonstrate how GnuCOBOL meets industrial needs while providing a free and ethical alternative.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Open Food Facts : Acting on the health and environnemental impacts of the food system",
+      "speakers": ["Pierre Slamich"],
+      "date": "2024-02-02T11:40:00",
+      "location": "Fosdem24",
+      "tags": ["food", "open-source"],
+      "url": "https://ftp.fau.de/fosdem/2024/h2215/fosdem-2024-3595-open-food-facts-acting-on-the-health-and-environnemental-impacts-of-the-food-system.mp4",
+      "duration": "PT15M",
+      "description": "Through open source and open data, Open Food Facts is transforming our food system! In this talk, we'll dive into how Open Food Facts is helping reshape the food system to reduce its impacts on health and the environment. We'll go through how Open Food Facts helps create a treasure trove of information, and turn it into actionable data for consumers, researchers and policy makers. We'll explore how citizens and consumers are using this database to make smarter, healthier food choices, steering the food industry towards a more transparent and sustainable future.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
