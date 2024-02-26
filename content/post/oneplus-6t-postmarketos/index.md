@@ -36,13 +36,12 @@ There are pre-built images of PostmarketOS that can be use if a custom compilati
 Pre-built images can be found [here](https://postmarketos.org/download/).
 
 ## Applications
- 
 These are the applications that i am currently using/testing:
 
 ## Phonecalls
 ### Calls
 "Calls" is the default application to call used in the OS. As of the writing of this post the app is 100% functional, it can receive and make calls without any issues (at least so far).\
-When receiving calls, the vibration and sound work, even when the screen is turned off.
+When receiving calls, the vibration and sound work, even when the screen is turned off. Needs some tuning on audio inputs and outputs.
 
 ## Messages
 ### Chats
@@ -71,4 +70,30 @@ Formely gtkeddit, it is written in C++ and it's an archived project. It's curren
 
 ## RSS Feed
 ### Newsboat
-Famous RSS/Atom feed reader for the terminal written in C++. Somewhat functional after a couple of easy modifications i have found improved my experience.
+Famous RSS/Atom feed reader for the terminal written in C++. Somewhat functional after a couple of easy modifications i have found improved my experience. Link will follow.
+
+## System process viewer
+### htop
+The famous text based process viewer, honeslty it's here cause its cool.
+
+## Matrix client
+### FluffyChat
+Written using flutter, works very well out of the box. Notifications works visually as long as the app is among the open applications tray. Only important piece missing is the ability to play audio messages.\
+Requires flatpak installation and flathub repository addition.
+
+### Fractal
+The app works, only the basic functions are there but they are all functional, but i am pretty sure it does not support the e2e chats verification.
+
+### Nheko
+Was not able to login due to a visual bug. I'll wait for a fix and try again, apparently the app is very liked among users.
+
+## Phone Camera
+### Megapixels
+Not working, no matter what i tried. Still have to look further into it tho. 
+
+## Some settings i changed:
+### Disable vibration during typing
+open a terminal and type:
+```
+gsettings set org.sigxcpu.feedbackd.application:/org/sigxcpu/feedbackd/application/sm-puri-squeekboard/ profile silent
+```
