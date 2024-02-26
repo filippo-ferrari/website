@@ -1,5 +1,5 @@
 ---
-title: My Oneplus 6t Linux setup
+title: My Oneplus 6T Linux setup
 description: A description of my current Linux phone and its setup
 date: 2024-02-23 00:00:00+0000
 image: postmarket.png
@@ -38,62 +38,69 @@ Pre-built images can be found [here](https://postmarketos.org/download/).
 ## Applications
 These are the applications that i am currently using/testing:
 
-## Phonecalls
-### Calls
+### Phonecalls
+#### Calls
 "Calls" is the default application to call used in the OS. As of the writing of this post the app is 100% functional, it can receive and make calls without any issues (at least so far).\
 When receiving calls, the vibration and sound work, even when the screen is turned off. Needs some tuning on audio inputs and outputs.
 
-## Messages
-### Chats
+### Messages
+#### Chats
 "Chats" is the default application to send and receive SMS and MMS messages. I have not tried MMS yet, SMS work perfectly out of the box, no particular setup needed. The app is quite complite and responsive.\
 Features include: archiving messages, messages receipts, emojis, seach function and more. Fully functional
 
-## Emails
-### Thunderbird
+### Emails
+#### Thunderbird
 Thunderbird is very good state overall, i have not needed to look at potential alternatives yet, given how everything i need is in the app already. With a a couple of changes to the view settings it is possible to create a very usable setup.\
 Notifications work visually if the app is open in the background, but i have not being able to make the sound of the notifications work.
 Once open, emails are fully readable and navigable, they render correctly and have all the standard options available and working (reply, reply list, archive, just, forward, etc).
 
-## Browser
-### Firefox-ESR
+### Browser
+#### Firefox-ESR
 The extended support release of Firefox is the default browser of the OS and arrives with **mobile-config-firefox** package already installed, making it usable from the start.\
 The browser is fast and responsive, the only issue i have found is that the tabs menu is not working correctly when more tabs than the maximum the view allows are open. I wasn't able to swipe to reach the tabs outside of the view of the menu.\
 Aside from that i have found no issue
 
-## Reddit Client
-### Giara
+### Reddit Client
+#### Giara
 Giara is a a Reddit client release under the GPL3 license, written using python and GTK. The app works very well, shows everything the site does, from comments to thumbs up to dates and edits.\
 Has the option to copy to the clipboard a comment or post and to open them in the browser. Currently has a slight issue swiping the main page.
 
-### Headlines
+#### Headlines
 Formely gtkeddit, it is written in C++ and it's an archived project. It's currently still working great, probably slightly faster than Giara, but the UI is older and i don't like the way it manages trees of comments. Still very good as a Reddit client.
 
-## RSS Feed
-### Newsboat
+### RSS Feed
+#### Newsboat
 Famous RSS/Atom feed reader for the terminal written in C++. Somewhat functional after a couple of easy modifications i have found improved my experience. Link will follow.
 
-## System process viewer
-### htop
-The famous text based process viewer, honeslty it's here cause its cool.
-
-## Matrix client
-### FluffyChat
+### Matrix client
+#### FluffyChat
 Written using flutter, works very well out of the box. Notifications works visually as long as the app is among the open applications tray. Only important piece missing is the ability to play audio messages.\
 Requires flatpak installation and flathub repository addition.
 
-### Fractal
+#### Fractal
 The app works, only the basic functions are there but they are all functional, but i am pretty sure it does not support the e2e chats verification.
 
-### Nheko
+#### Nheko
 Was not able to login due to a visual bug. I'll wait for a fix and try again, apparently the app is very liked among users.
 
-## Phone Camera
-### Megapixels
+### Phone Camera
+#### Megapixels & Millipixels
 Not working, no matter what i tried. Still have to look further into it tho. 
 
-## Some settings i changed:
+### System process viewer
+#### htop
+The famous text based process viewer, honeslty it's here cause its cool. Super cool.
+
+## Some settings i changed (constant Work In Progress tbh):
 ### Disable vibration during typing
 open a terminal and type:
 ```
 gsettings set org.sigxcpu.feedbackd.application:/org/sigxcpu/feedbackd/application/sm-puri-squeekboard/ profile silent
+```
+### Notch blocking part of the top bar
+Following the official PostMarketOS wiki, i edited this file: ```~/.config/gtk-3.0/gtk.css``` with:
+```
+.phosh-topbar-clock {
+  padding-left: 130px;
+}
 ```
