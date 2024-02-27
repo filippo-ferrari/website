@@ -70,7 +70,7 @@ Formely gtkeddit, it is written in C++ and it's an archived project. It's curren
 
 ### RSS Feed
 #### Newsboat
-Famous RSS/Atom feed reader for the terminal written in C++. Somewhat functional after a couple of easy modifications i have found improved my experience. Link will follow.
+Famous RSS/Atom feed reader for the terminal written in C++. Somewhat functional after a couple of easy modifications i have found improved my experience. Instructions will follow.
 
 ### Matrix client
 #### FluffyChat
@@ -104,3 +104,23 @@ Following the official PostMarketOS wiki, i edited this file: ```~/.config/gtk-3
   padding-left: 130px;
 }
 ```
+### Newsboat changes
+To use Newsboat to read RSS feeds (inlcuding the feed of this site!) you can change a couple of things to improve your experience. The default browser used by Newsboat when using the "o" command to open an article in the browser is Lynx.\
+Using Lynx in the phone's shell is not impossible but impractical. What i found much better is to pass the Firefox-ESR binary as a variable when launching Newsboat, by editing the **newsboat.desktop** file in ```/usr/share/applications``` like this:
+```
+[Desktop Entry]
+Version=1.0
+Name=newsboat
+
+GenericName=RSS/Atom feed reader
+Comment=Launches newsboat RSS/Atom feed reader
+Keywords=RSS,Atom,News
+Categories=Network;ConsoleOnly
+X-Purism-FormFactor=Workstation;Mobile;
+Type=Application
+Icon=newsboat
+Terminal=true
+Exec=bash -c 'env BROWSER=firefox-esr newsboat %u'
+```
+This will launch the Firefox-ESR binary and use firefox as the browser. The binary will be executed in the same terminal in which you lanuched the Newsboat binary, so, in order to go back to newsboat, you will need to close Firefox first.
+
