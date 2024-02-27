@@ -2,6 +2,7 @@
 title: T400 mods
 description: A collection of ways you can mod a Thinkpad T400
 date: 2023-09-07 00:00:00+0000
+image: thinkpad2.jpg
 categories:
         - Thinkpad
         - Libreboot
