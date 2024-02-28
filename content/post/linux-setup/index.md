@@ -68,7 +68,7 @@ All jokes aside [htop](https://htop.dev/) is a neat piece of software, very ligh
 
 ## Text editor: neovim
 ok, big boys time, i use vim as my main text editor both to play around in linux and to write code 
-i use [AtroVim](https://astronvim.com/) setup, its a very IDE like setup and you can go much more minimalistic if you need to.
+i use [AstroVim](https://astronvim.com/) setup, its a very IDE like setup and you can go much more minimalistic if you need to.
 That being said i am constantly hopping among major neovim configs so this might very well change in the future.
 i didnt customize the setup very much just:
 - relative lines set to true
