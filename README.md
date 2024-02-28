@@ -3,7 +3,7 @@
 I will post stuff mainly because i want to document my journey in the software development world and to keep track of my projects, conferences i go to and stuff i learn. One day, with enough knowledge, patience and hard work (or by pure chance) these contents will be useful to someone.
 
 This site is made with HUGO, a nice and easy to use static site builder.\
-The theme is the Stack theme by [Jimmy Cai](https://jimmycai.com/), here is the [Github Repository](https://github.com/CaiJimmy/hugo-theme-stack).\
+The theme is the Stack theme by [Jimmy Cai](https://jimmycai.com/), here is the [Github Repository](https://github.com/CaiJimmy/hugo-theme-stack).
 
 The photos used in the guides are either freely available online or taken by me. When this is not the case (in my Libreboot guide there will be photos that are not mine) the original source for the picture will be credited for it.
 
@@ -25,3 +25,5 @@ A guide on how do install Libreboot, a free and open source (libre) boot firmwar
 A list of talks that I have seen or plan to see, divided by event. Since i started by journey into software development I have always enjoyed immensely going to events and the idea of spreading knowledge through talks.\
 I have seen countless amazing talks and I have decided to start keeping track of them, so you will find them based on event, with title and description, location, date, lenght and a link to the recording, if available.
 
+## License
+All articles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
