@@ -142,4 +142,41 @@ Exec=bash -c 'env BROWSER=firefox-esr newsboat %u'
 This will launch the Firefox-ESR binary and use firefox as the browser. The binary will be executed in the same terminal in which you lanuched the Newsboat binary, so, in order to go back to newsboat, you will need to close Firefox first.
 
 ## <span style="color:black; text-decoration:underline"> Basic terminal usage </span>
+### Installing a package
+```
+sudo apk add neofetch
+```
+### Uninstall a package
+```
+sudo apk remote neofetch
+```
+### Seach for a package
+```
+sudo apk seach neofetch
+```
+### Upgrade the system
+```
+sudo akp upgrad -a
+```
+### Repair packages or a single package
+```
+sudo apk fix
+sudo apt fix neofetch
+```
+### Manage services
+the PostmarketOS service manager is OpenRC, so you can use the ```rc-service``` commands with ease. the command is also symlinked to ```service```, just so you know.
+```
+ rc-service networkmanager status
+ sudo rc-service networkmanager start
+ sudo rc-service networkmanager stop
+ sudo rc-service networkmanager restart
+```
+To enable or disable services on boot you can use the ```rc-update``` command
+```
+# Start NetworkManager on boot (in the default runlevel)
+sudo rc-update add networkmanager default
 
+# Stop NetworkManager starting on boot
+sudo rc-update del networkmanager default
+```
+and to see the list of services added to a runlevel you can use ```rc-update```
