@@ -5,6 +5,6 @@ image: thinkpad.jpg
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#c4062c"
     color: "#fff"
 ---

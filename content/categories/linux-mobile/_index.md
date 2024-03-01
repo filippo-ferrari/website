@@ -5,6 +5,6 @@ image: linux-mobile.jpg
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#04781b"
     color: "#fff"
 ---

@@ -5,6 +5,6 @@ image: libreboot.jpg
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#57055e"
     color: "#fff"
 ---

@@ -5,6 +5,6 @@ image: events.jpg
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#d96b0b"
     color: "#fff"
 ---
