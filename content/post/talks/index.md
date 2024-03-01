@@ -4,7 +4,6 @@ description: A list of talks I have seen at various events
 date: 2024-02-08 00:00:00+0000
 image: talks.png
 categories:
-    - Talks
     - Events
 tags:
     - talks

@@ -5,10 +5,12 @@ image: linux.png
 date: 2023-09-07 00:00:00+0000
 categories:
         - Linux
-        - Arch
+        - Programming
 tags:
         - linux
         - arch
+        - suckless
+        - terminal
 ---
 This is a simple collection of all the main tools that i have installed on my system. I do not consider the setup complete yet, but i have already collected enough pieces of software that justify start keeping track of them.
 

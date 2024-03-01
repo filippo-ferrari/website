@@ -1,7 +1,7 @@
 ---
 title: Events
 description: Anything and everything related to events, talks and conferences
-image: linux.jpg
+image: events.jpg
 
 # Badge style
 style:

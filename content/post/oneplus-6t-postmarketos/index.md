@@ -8,12 +8,12 @@ license:
 hidden: false
 categories:
         - Linux
-        - Mobile
-        - PostmarketOS
+        - Linux-Mobile
 tags:
         - linux
         - postmarketos
         - phosh
+        - mobile
 ---
 ## <span style="color:black; text-decoration:underline"> Configuration </span>
 This is the current configuration i am using while daily driving linux on mobile.\

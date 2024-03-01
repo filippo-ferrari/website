@@ -5,7 +5,7 @@ date: 2024-02-08 00:00:00+0000
 image: parabola.jpg
 categories:
       - Linux
-      - Parabola
+      - Libreboot
 tags:
       - linux
       - parabola
