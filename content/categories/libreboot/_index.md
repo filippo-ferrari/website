@@ -1,7 +1,7 @@
 ---
-title: libreboot
+title: Libreboot
 description: Anything and everything related to Libreboot
-image:
+image: libreboot.jpg
 
 # Badge style
 style:
