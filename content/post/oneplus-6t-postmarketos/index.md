@@ -1,6 +1,6 @@
 ---
 title: My Oneplus 6T Linux setup
-description: A description of my current Linux phone and its setup
+description: A description of my current Linux phone and it's setup
 date: 2024-02-23 00:00:00+0000
 image: postmarket.png
 math: 
@@ -25,14 +25,15 @@ As a daily driver the phone is basically 100% functional for my use case, your e
 Current issues i have found:
 - brightness resets at phone reboot
 - default audio output resets at phone reboot
-- notch blocking some informations in the top bar (workaround)
+- battery profile resets at phoen reboot
+- notch blocking some information in the top bar (workaround)
 - camera not functional
 - browser notification not passing through
 - gesture to close applications difficult to use
 - notifications are not removed when read
 
 ## <span style="color:black; text-decoration:underline"> Installation </span>
-There are pre-built images of PostmarketOS that can be use if a custom compilation is not needed. The installation of these images if incredibly simple and well documented [here](https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)).\
+There are pre-built images of PostmarketOS that can be used if a custom compilation is not needed. The installation of these images if incredibly simple and well documented [here](https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)).\
 Pre-built images can be found [here](https://postmarketos.org/download/).
 
 ## <span style="color:black; text-decoration:underline"> Applications </span>
@@ -45,8 +46,8 @@ When receiving calls, the vibration and sound work, even when the screen is turn
 
 ### <span style="color:green"> Messages </span>
 #### Chats
-"Chats" is the default application to send and receive SMS and MMS messages. I have not tried MMS yet, SMS work perfectly out of the box, no particular setup needed. The app is quite complite and responsive.\
-Features include: archiving messages, messages receipts, emojis, seach function and more. Fully functional
+"Chats" is the default application to send and receive SMS and MMS messages. I have not tried MMS yet, SMS work perfectly out of the box, no particular setup needed. The app is quite complete and responsive.\
+Features include: archiving messages, messages receipts, emojis, search function and more. Fully functional
 
 ### <span style="color:green"> Emails </span>
 #### Thunderbird
@@ -66,7 +67,7 @@ Giara is a a Reddit client release under the GPL3 license, written using python 
 Has the option to copy to the clipboard a comment or post and to open them in the browser. Currently has a slight issue swiping the main page.
 
 #### Headlines
-Formely gtkeddit, it is written in C++ and it's an archived project. It's currently still working great, probably slightly faster than Giara, but the UI is older and i don't like the way it manages trees of comments. Still very good as a Reddit client.
+Formerly gtkeddit, it is written in C++ and it's an archived project. It's currently still working great, probably slightly faster than Giara, but the UI is older and i don't like the way it manages trees of comments. Still very good as a Reddit client.
 
 ### <span style="color:green"> RSS feed </span>
 #### Newsboat
@@ -93,9 +94,9 @@ Stuff that works include:
 - notification sounds when receiving a new message (if browser is open and WhatsApp is a loaded page)
 - access to settings
 
-Stuff that dosen't work include:
+Stuff that doesn't work include:
 - visual notification on the phone screen when a message is received (The browser is the one that would need to send that notification)
-- sending vocal messages (I was able to give the broser permissions but the issue now relies in the input device, i think)
+- sending vocal messages (I was able to give the browser permissions but the issue now relies in the input device, i think)
 - making and receiving calls
 
 I have no interest in using features such as: status updates, channels, communities and so on, so i didn't test any of those.
@@ -122,7 +123,7 @@ Following the official PostMarketOS wiki, i edited this file: ```~/.config/gtk-3
 }
 ```
 ### Newsboat changes
-To use Newsboat to read RSS feeds (inlcuding the feed of this site!) you can change a couple of things to improve your experience. The default browser used by Newsboat when using the "o" command to open an article in the browser is Lynx.\
+To use Newsboat to read RSS feeds (including the feed of this site!) you can change a couple of things to improve your experience. The default browser used by Newsboat when using the "o" command to open an article in the browser is Lynx.\
 Using Lynx in the phone's shell is not impossible but impractical. What i found much better is to pass the Firefox-ESR binary as a variable when launching Newsboat, by editing the **newsboat.desktop** file in ```/usr/share/applications``` like this:
 ```
 [Desktop Entry]
@@ -139,7 +140,7 @@ Icon=newsboat
 Terminal=true
 Exec=bash -c 'env BROWSER=firefox-esr newsboat %u'
 ```
-This will launch the Firefox-ESR binary and use firefox as the browser. The binary will be executed in the same terminal in which you lanuched the Newsboat binary, so, in order to go back to newsboat, you will need to close Firefox first.
+This will launch the Firefox-ESR binary and use firefox as the browser. The binary will be executed in the same terminal in which you launched the Newsboat binary, so, in order to go back to newsboat, you will need to close Firefox first.
 
 ## <span style="color:black; text-decoration:underline"> Basic terminal usage </span>
 ### Installing a package
@@ -150,9 +151,9 @@ sudo apk add neofetch
 ```
 sudo apk remote neofetch
 ```
-### Seach for a package
+### Search for a package
 ```
-sudo apk seach neofetch
+sudo apk search neofetch
 ```
 ### Upgrade the system
 ```

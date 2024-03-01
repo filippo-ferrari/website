@@ -42,7 +42,7 @@ You can also find pre-made scripts all over the world wide web. It's super minim
 
 ## Menu: dmenu
 "[dmenu](https://wiki.archlinux.org/title/dmenu) is a fast and lightweight dynamic menu for X. It reads arbitrary text from stdin, and creates a menu with one item for each line. The user can then select an item, through the arrow keys or typing a part of the name, and the line is printed to stdout. dmenu_run is a wrapper that ships with the dmenu distribution that allows its use as an application launcher."
-I haven't dabbled particulary with dmenu since it comes with everything you need already outside of the box, it's cool and it supports a ton of stuff, like pass and other shit.
+I haven't dabbled particularly with dmenu since it comes with everything you need already outside of the box, it's cool and it supports a ton of stuff, like pass and other shit.
 
 ## File manager: lf
 [lf](https://github.com/gokcehan/lf) (as in "list files") is a terminal file manager written in Go with a heavy inspiration from ranger file manager. See faq for more information and tutorial for a gentle introduction with screencasts.
@@ -60,17 +60,17 @@ You can use [mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard) to easily
 TLP’s default settings are already optimized for battery life and implement Powertop’s recommendations out of the box. So you may just install and forget it.
 Nevertheless TLP is highly customizable to fulfill your specific requirements.
 
-P.S. i stil cant manage to make the TLP service work properly with runit, so if you want to create a highy customized config you might want to stick to [systemd](https://en.wikipedia.org/wiki/Trash)
+P.S. i still can't manage to make the TLP service work properly with runit, so if you want to create a highy customized config you might want to stick to [systemd](https://en.wikipedia.org/wiki/Trash)
 
 ## Task manager: htop
 Again, if you ever want to be taken into consideration by the cool guys and gals of the ricing sub-scene you have to have this process viewer.
-All jokes aside [htop](https://htop.dev/) is a neat piece of software, very light and super useful, written in the mighty C languange.
+All jokes aside [htop](https://htop.dev/) is a neat piece of software, very light and super useful, written in the mighty C language.
 
 ## Text editor: neovim
 ok, big boys time, i use vim as my main text editor both to play around in linux and to write code 
 i use [AstroVim](https://astronvim.com/) setup, its a very IDE like setup and you can go much more minimalistic if you need to.
 That being said i am constantly hopping among major neovim configs so this might very well change in the future.
-i didnt customize the setup very much just:
+i didn't customize the setup very much just:
 - relative lines set to true
 - catcapuccin as my theme
 - path_display not truncated
@@ -81,7 +81,7 @@ i didnt customize the setup very much just:
 - other stuff I'm too lazy to remember
 
 ## Calendar: calcurse
-[calcurse](https://calcurse.org/) is a calendar and scheduling application. Terminal based, uses vim bindings, thats it.
+[calcurse](https://calcurse.org/) is a calendar and scheduling application. Terminal based, has a configurable notification system, uses vim bindings. Cool stuff.
 
 ## RSS reader: newsboat
 [newsboat](https://newsboat.org) is an RSS/Atom feed reader for the terminal. Super easy to setup and use, uses vim bindings.\

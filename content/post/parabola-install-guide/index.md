@@ -1,6 +1,6 @@
 ---
 title: Parabola Installation Guide
-description: A recap of the commands needed to have an encryped, openRC Parabola setup.
+description: A recap of the commands needed to have an encrypted, openRC Parabola setup.
 date: 2024-02-08 00:00:00+0000
 image: parabola.jpg
 categories:
@@ -13,13 +13,13 @@ tags:
 ---
 
 This is a guide on how to install parabola that i created to have a reference for my eventual future installations on a librebooted system.
-I decided to write this because I found that following the original guide in the Parabola wiki was not sufficent if you want to have an encrypted disk and no systemd in your system.
+I decided to write this because I found that following the original guide in the Parabola wiki was not sufficient if you want to have an encrypted disk and no systemd in your system.
 Still, this is to be considered just a recap of what you will need to to if you want to install Parabola this way, do not consider this official (or even unofficial) documentation at all.
 
 some info on [Parabola GNU/Linux-libre](https://www.parabola.nu/)
 
 I will assume that you already created a bootable drive of some kind with an image of Parabola CLI Edition that you can download from here: [download](https://wiki.parabola.nu/Get_Parabola)\
-I won't cover how to do so beacuse there are already hundreds of guides that perfectly teach you how to do it on every system with every image using every technique available.
+I won't cover how to do so because there are already hundreds of guides that perfectly teach you how to do it on every system with every image using every technique available.
 
 ## Check if you have a UEFI machine or not
 Type the following command to check if you have a UEFI machine or not, and keep that in mind, we will use this information later
@@ -76,7 +76,7 @@ It might ask you to remote an already present signature, in that case just remot
 
 ## Filesystem of boot partition
 
-We are now gonna put a filesystem on the first partition, I use FAT partitioning beacuse it is versatile since it's compatibile with both legacy boot and UEFI.
+We are now gonna put a filesystem on the first partition, I use FAT partitioning because it is versatile since it's compatible with both legacy boot and UEFI.
 ```
 mkfs.fat -F32 /dev/sdX1
 ```
@@ -140,7 +140,7 @@ Install the needed packages into the ```/mnt``` partition, add what you know you
 ```
 pacstrap /mnt base base-devel linux-libre linux-libre-firmware btrfs-progs grub networkmanager cryptsetup lvm2 vim neovim
 ```
-If youre in UEFI then add the following package: ```efibootmgr```
+If you're in UEFI then add the following package: ```efibootmgr```
 
 - base and base-devel:\
 base is the basic system and all the tools related to it, base-devel is necessary to compile packages and other stuff
@@ -168,7 +168,7 @@ just run:
 ln -s /usr/share/zoneinfo/Europe/Rome /etc/localtime
 ```
 
-Change country adn city based on your correct timezone
+Change country and city based on your correct timezone
 Then synch the hardware clock with the system clock:
 ```
 hwclock --systhoc
@@ -179,7 +179,7 @@ Edit the locale.gen file:
 ```
 nvim /etc/locale.gen
 ```
-Uncomment the your langage and layout of choice
+Uncomment the your language and layout of choice
 
 Edit the file locale.conf:
 ```
@@ -204,7 +204,7 @@ change **myhostname** with your desired name, then edit the following file:
 ```
 nvim /etc/hosts
 ```
-and add the follwing lines:
+and add the following lines:
 ```
 127.0.0.1   localhost
 ::1         localhost
@@ -358,4 +358,3 @@ Next, replace your currently installed packages with those from the [nonsystem] 
 ```
 pacman -Syyuu
 ```
-
