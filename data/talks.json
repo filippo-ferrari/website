@@ -57,7 +57,7 @@
       "speakers": ["anonymous-speaker"],
       "date": "2023-12-27T17:00:00",
       "location": "37C3",
-      "tags": ["anonimity", "esim"],
+      "tags": ["anonymity", "esim"],
       "notes": "Couldn't hear anything, left after paper data eSIM giveaway.",
       "url": "https://events.ccc.de/congress/2023/hub/en/event/mobile-phone-privacy-with-silentlink-workshop/",
       "duration": "PT1H",
@@ -250,7 +250,7 @@
       "speakers": ["Roger Dingledine"],
       "date": "2023-12-28T23:00:00",
       "location": "37C3",
-      "tags": ["anonimity", "censorship", "obfs4", "politics", "snowflake", "tor"],
+      "tags": ["anonymity", "censorship", "obfs4", "politics", "snowflake", "tor"],
       "notes": "I really enjoyed this one.",
       "url": "https://media.ccc.de/v/37c3-12040-tor_censorship_attempts_in_russia_iran_turkmenistan",
       "duration": "PT1H2M41S",
@@ -807,7 +807,7 @@
       "attended": true
     },
     {
-      "title": "Open Food Facts : Acting on the health and environnemental impacts of the food system",
+      "title": "Open Food Facts : Acting on the health and environmental impacts of the food system",
       "speakers": ["Pierre Slamich"],
       "date": "2024-02-02T11:40:00",
       "location": "Fosdem24",

@@ -20,7 +20,7 @@ the [F] tag means that the book is available freely online. A great starting poi
 # Programming
 - Clean Code 
 - Clean Architecture
-- Data Stuctures the fun way
+- Data Structures the fun way
 - Essential Java
 - The GO programming language
 - Design Patterns: Elements of Reusable Object-Oriented Software
