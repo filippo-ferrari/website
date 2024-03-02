@@ -28,7 +28,8 @@ It is possible to install a series of quad-core processors on the T400, taking a
 You will need some soldering skills and decent amount of patience. A very well done guide can be found [here](https://thonkpeasant.xyz/guides/other/quad.html).\
 The original post can be found [here](https://thinkpad-forum.de/threads/core2-quad-mit-coreboot-libreboot-auf-t500-wahrsch-auch-t400-benutzen-beta.199129/). (in german)
 ### Cooling mod 
-TODO
+Cooling mods really do exists out there, even tho I have never tried one on my T400s, considering i have heard mixed opinions about the actual improvements when it comes to the CPU degrees. Mileage may vary.\
+All guides follow more or less the same principle: remove the metal sheeting from the plastic bottom casing and drill holes in the case. Examples of the procedures are [this](https://thonkpeasant.xyz/guides/other/cool.html) and [this](https://www.instructables.com/Fix-a-Thinkpad-T400s-Thermal-Issues-Once-and-For-/).
 ### bluetooth
 the bluetooth of the T400 is 2.1, you can easily upgrade the bluetooth 4.0 by swapping the card located behind the LCD front bezel
 ### Ultra-bay mod
@@ -36,8 +37,8 @@ I am currently working on a variation of a mod I have seen floating around the w
 More info and **maybe** a guide will appear in the future, depending on how much time and effor i want to waste on this idea.
 ### Express Card slot
 The T400 Express Card slot allows you to slot in any compatible Express Card 54, i think the most used card is the one that gives you one or two (depending on the model) USB 3.0 plugs, with up to (i think) 5Gbps transfer speed. Cool shit.
-### Parabola GNU/Linux-libre
-The distro i use on my librebooted T400 is Parabola GNU/Linux-libre, a community-driven, "labour-of-love" effort to maintain a 100% free (as in: freedom) operating system distribution that is lean, clean, and hackable.
-A guide on installing parabola with a encrypted root partition using luks and open-rc could be created in the future.
 ### External WiFi antenna
 Still have to do some research on this to understand if it makes sense or not.
+### Parabola GNU/Linux-libre
+The distro i use on my librebooted T400 is Parabola GNU/Linux-libre, a community-driven, "labour-of-love" effort to maintain a 100% free (as in: freedom) operating system distribution that is lean, clean, and hackable.\
+I made on guide on the manual installation of Parabola with an encrypted setup and Open-RC [here](https://bytemeifyoucan.lol/p/parabola-installation-guide/).
