@@ -5,6 +5,6 @@ image: programming.jpg
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#c211a7"
     color: "#fff"
 ---

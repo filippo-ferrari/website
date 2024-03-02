@@ -5,6 +5,6 @@ image: books.jpg
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#11c2b9"
     color: "#fff"
 ---

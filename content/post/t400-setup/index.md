@@ -41,4 +41,4 @@ The T400 Express Card slot allows you to slot in any compatible Express Card 54,
 Still have to do some research on this to understand if it makes sense or not.
 ### Parabola GNU/Linux-libre
 The distro i use on my librebooted T400 is Parabola GNU/Linux-libre, a community-driven, "labour-of-love" effort to maintain a 100% free (as in: freedom) operating system distribution that is lean, clean, and hackable.\
-I made on guide on the manual installation of Parabola with an encrypted setup and Open-RC [here](https://bytemeifyoucan.lol/p/parabola-installation-guide/).
+I made a guide on the manual installation of Parabola with an encrypted setup and Open-RC [here](https://bytemeifyoucan.lol/p/parabola-installation-guide/).
