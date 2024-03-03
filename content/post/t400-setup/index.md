@@ -34,6 +34,7 @@ They are:
 - Core 2 Quad Q9000
 - Core 2 Quad Q9100
 - Core Extreme QX9300
+
 You will need some soldering skills and decent amount of patience.\
 A very well done guide can be found [here](https://thonkpeasant.xyz/guides/other/quad.html).\
 The original post can be found [here](https://thinkpad-forum.de/threads/core2-quad-mit-coreboot-libreboot-auf-t500-wahrsch-auch-t400-benutzen-beta.199129/). (in german)
