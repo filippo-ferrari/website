@@ -36,6 +36,21 @@ Current issues i have found:
 There are pre-built images of PostmarketOS that can be used if a custom compilation is not needed. The installation of these images if incredibly simple and well documented [here](https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)).\
 Pre-built images can be found [here](https://postmarketos.org/download/).
 
+## <span style="color:black; text-decoration:underline"> GPS </span>
+If you want GPS to work, you may need to flash OxygenOS in a specific version, before flashing postmarketOS; 9.0.8 for OP6, 9.0.16 for OP6T. Its recommended to flash it to both slots (ie. use copy-partitions from LineageOS) although it was not proved that it is necessary.\
+If you want to check that the GPS is working use:
+```
+mmcli -m any --location-get
+```
+If you get no output, you didn't get the fix.
+Some devices might need to enable manually the GPS:
+```
+mmcli -m any --location-enable-gps-nmea
+```
+```
+mmcli -m any --location-enable-gps-raw
+```
+If you want a GUI to easily test the GPS connection you can use [Satellite](https://codeberg.org/tpikonen/satellite).
 ## <span style="color:black; text-decoration:underline"> Applications </span>
 These are the applications that i am currently using/testing:
 
