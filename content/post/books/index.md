@@ -13,7 +13,7 @@ tags:
     - literature
 ---
 
-This is just a collection, in so specific order, of books i read or i intent to read in the future. The all are related to the world of programming, hacking, FOOS, Linux and software in general.
+This is just a collection, in so specific order, of books i am reading or i intent to read in the future. The all are related to the world of programming, hacking, FOSS, Linux and software in general.
 
 the [F] tag means that the book is available freely online. A great starting point if you want to look for books that are free on the topic of programming, computer vision, mathematics and much more is [this amazing repository](https://github.com/EbookFoundation/free-programming-books)
 
