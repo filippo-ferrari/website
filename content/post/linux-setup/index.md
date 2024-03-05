@@ -95,7 +95,7 @@ i didn't customize the setup very much just:
 ## Audio: puslemixer
 [Pulsemixer](https://pypi.org/project/pulsemixer/) is a self-sufficient single-file python app that doesn't require any extra libraries. A great CLI mixer.
 
-## logseq
+## Note taking: Logseq
 [logseq](https://logseq.com/) is an open-source note taking application that i enjoy using (mainly at work), it supports markdown, tasks management, whiteboards and PDFs annotations.
 
 ## Network Manager: nmtui
