@@ -101,5 +101,16 @@ i didn't customize the setup very much just:
 ## Network Manager: nmtui
 A text based network interface for NetworkManager, easy to use, configure and modify. 
 
+## Shell history: hiSHtory
+[hiSHtory](https://github.com/ddworken/hishtory) stores a history of all your commands, the directory in which you used them, if they succeeded, the time of execution and more. This is stored locally and e2e encrypted.\
+You can query them via the ```hishtory``` CLI, it offers a wide range of personalization options and a ton of advanced features like:
+- AI shell assistance
+- Custom columns
+- Web UI
+- Filtering duplicate entries
+- Syncing
+
+and more. I like it.
+
 ## SWAG: neofetch
 do i need to say more? you can have it start at login to flex on r/unixporn, normal users will be most likely disgusted (rightfully so)
