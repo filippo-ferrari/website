@@ -23,6 +23,7 @@ As a daily driver the phone is basically 100% functional for my use case, your e
 ## <span style="color:black; text-decoration:underline"> Known issues and problems i have experienced </span>
 
 Current issues i have found:
+- calls have stopped working (workaround [here](https://bytemeifyoucan.lol/p/my-oneplus-6t-linux-setup/#trying-to-solve-issues-with-sound-in-calls))
 - brightness resets at phone reboot
 - default audio output resets at phone reboot
 - battery profile resets at phoen reboot
@@ -36,9 +37,8 @@ Current issues i have found:
 There are pre-built images of PostmarketOS that can be used if a custom compilation is not needed. The installation of these images if incredibly simple and well documented [here](https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)).\
 Pre-built images can be found [here](https://postmarketos.org/download/).
 
-## <span style="color:black; text-decoration:underline"> GPS </span>
-If you want GPS to work, you may need to flash OxygenOS in a specific version, before flashing postmarketOS; 9.0.8 for OP6, 9.0.16 for OP6T. Its recommended to flash it to both slots (ie. use copy-partitions from LineageOS) although it was not proved that it is necessary.\
-If you want to check that the GPS is working use:
+## <span style="color:black; text-decoration:underline"> GPS </span> 
+If you want GPS to work, you may need to flash OxygenOS in a specific version, before flashing postmarketOS; 9.0.8 for OP6, 9.0.16 for OP6T. Its recommended to flash it to both slots (ie. use copy-partitions from LineageOS) although it was not proved that it is necessary.\ If you want to check that the GPS is working use:
 ```
 mmcli -m any --location-get
 ```
@@ -51,13 +51,14 @@ mmcli -m any --location-enable-gps-nmea
 mmcli -m any --location-enable-gps-raw
 ```
 If you want a GUI to easily test the GPS connection you can use [Satellite](https://codeberg.org/tpikonen/satellite).
+
 ## <span style="color:black; text-decoration:underline"> Applications </span>
 These are the applications that i am currently using/testing:
 
 ### <span style="color:green"> Phonecalls </span>
 #### Calls
-"Calls" is the default application to call used in the OS. As of the writing of this post the app is 100% functional, it can receive and make calls without any issues (at least so far).\
-When receiving calls, the vibration and sound work, even when the screen is turned off. Needs some tuning on audio inputs and outputs.
+"Calls" is the default application to call used in the OS. When receiving calls, the vibration and sound work, even when the screen is turned off.\
+While at the beginning it seemed that there were no major issues and the calls where working fine, now I am having trouble making calls work at all. More info on this issues and potential fixes later.
 
 ### <span style="color:green"> Messages </span>
 #### Chats
@@ -156,6 +157,27 @@ Terminal=true
 Exec=bash -c 'env BROWSER=firefox-esr newsboat %u'
 ```
 This will launch the Firefox-ESR binary and use firefox as the browser. The binary will be executed in the same terminal in which you launched the Newsboat binary, so, in order to go back to newsboat, you will need to close Firefox first.
+
+### Trying to solve issues with sound in calls
+There are multiple issues, maybe related to each other, with audio inputs/outputs in general and specifically in calls.\
+In calls, with the default input/output compo, the audio input is working, so people will head you fine, but the adio output level makes hearing them barely possible. In a completely quite room you can barely understand when the other person is saying.
+Also, the phone at startup or at the end of a call will switch the default output from the speakers to the headphones, which is another bug.
+Both of this are making having reliable calls impossible as of right now.
+One workaround that made calls working again partially (audio was still too low, but decent) was\
+Editing pulseaudio config:
+```
+sudo vi /etc/pulse/default.pa
+```
+Comment out loading module:
+```
+#load-module module-suspend-on-idle
+```
+Disable call_audio_idle_suspend_workaround service:
+```
+sudo rc-update del call_audio_idle_suspend_workaround
+```
+This workaround is among the comments on the [issue #1876](https://gitlab.com/postmarketOS/pmaports/-/issues/1876) that is tracking this problems. Please note that the original comment with the previous commands has a typo.\
+The issue of the default audio output being wrong is the [issue #2522](https://gitlab.com/postmarketOS/pmaports/-/issues/2552).
 
 ## <span style="color:black; text-decoration:underline"> Basic terminal usage </span>
 ### Installing a package
