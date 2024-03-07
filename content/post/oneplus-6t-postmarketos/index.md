@@ -19,16 +19,14 @@ links:
     description: A real Linux distribution for phones.
     website: https://postmarketos.org/
     image: https://postmarketos.org/logo.svg
-links:
   - title: OnePlus 6T specs
     description: Specs for the OnePlus 6T
     website: https://www.oneplus.com/it/6t/specs
     image: https://postmarketos.org/logo.svg
-links:
   - title: Phosh
     description: A user interface for postmarketOS
     website: https://phosh.mobi/
-    image: https://phosh.mobi/images/logo.png
+    image: https://phosh.mobi/images/site-feature-image.png
 ---
 ## <span style="color:black; text-decoration:underline"> Configuration </span>
 This is the current configuration i am using while daily driving linux on mobile.\
