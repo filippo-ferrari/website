@@ -5,6 +5,10 @@ links:
     description: GitHub is the world's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Tschunk recipe
+    description: The original Tschunk recipe! What, no wayyyy
+    website: https://entropia.de/Tschunk
+    image: https://entropia.de/images/thumb/d/df/Chunk.jpg/170px-Chunk.jpg
 menu:
     main: 
         weight: 4
