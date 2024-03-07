@@ -17,9 +17,10 @@ menu:
 
 comments: false
 ---
+Just a reminder on how to add links to the footer of pages, since i already forgot twice, ignore the snippet.\
+Might use this section to paste every useful links i have laying around. Who knows.
 
-To use this feature, add `links` section to frontmatter.
-
+To use this feature, add `links` section to frontmatter.\
 This page's frontmatter:
 
 ```yaml
