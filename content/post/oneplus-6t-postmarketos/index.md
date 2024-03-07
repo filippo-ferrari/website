@@ -14,6 +14,11 @@ tags:
         - postmarketos
         - phosh
         - mobile
+links:
+  - title: PostMarketOS site
+    description: A real Linux distribution for phones.
+    website: https://postmarketos.org/
+    image: https://postmarketos.org/logo.svg
 ---
 ## <span style="color:black; text-decoration:underline"> Configuration </span>
 This is the current configuration i am using while daily driving linux on mobile.\
