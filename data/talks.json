@@ -925,6 +925,18 @@
       "description": "What did you do during the pandemic? We started a Product Review Cabal. Follow our journey from getting a postcard in a product box to us exhausting all of our many online retailer sock accounts. We’ll teach you how we got free packages nearly every day… **but there’s a catch**. _Most of the products arrive with malware, backdoors, or glaring vulnerabilities_. ",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Project Blinkenlights",
+      "speakers": ["Tim Pritlove"],
+      "date": "2023-08-19T17:30:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["berlin", "blinkenlights"],
+      "url": "https://media.ccc.de/v/camp2023-57001-project_blinkenlights",
+      "duration": "PT1H30M",
+      "description": "The complete story of Project Blinkenlights: achievements, failures, technology and its cultural impact. In 2001, the Chaos Computer Club surprised the world with a simple but impressive interactive light installation on a building in the heart of Berlin: Blinkenlights illuminated 144 windows forming a huge but low-resolution pixel matrix on the facade of House of the Teacher at Alexanderplatz. But this was just the beginning. Much bigger follow-ups took place in Paris and Toronto and in between a lot of other things happenend. This talk shows it all: what worked, what did not work, the good ideas, the bad ideas and all that jazz. This year at Camp, we celebrate Blinkenlights history with another interactive light installation at the Camp.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
