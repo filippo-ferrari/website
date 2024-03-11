@@ -901,6 +901,30 @@
       "description": "At Camp2019 some ingenuitive hackers from Milliways and a handful of other villages took the modding tools of OFF GRID and set about building a replica 2019 CCCamp complete with Milliways rocket and big dome! 4 years later CCCamp is back and we thinks it's about time to dust off the mod and get even more villages into the project! This talk will go over the history of the game's development, what is possible with the mod tools we've built, and what our plans are for the future.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Fake 10Gb until you make 10Gb",
+      "speakers": ["equinox"],
+      "date": "2023-08-16T15:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["network"],
+      "url": "https://media.ccc.de/v/camp2023-57212-fake_10gb_until_you_make_10gb",
+      "duration": "PT45M",
+      "description": "Building your own hardware to work with 10 Gigabit Ethernet… without access to measurement or simulation equipment. Can the high frequency electronics deities be appeased with some sacrifices? Born from building and tearing down a bunch of fibre for CCC event networks: a pocket tool to help quickly troubleshoot our 10GE connections, and get us out of random square peg, round hole problems. Passive single-port adapters that can read diagnostic information from optical transceivers are common and easy, but how about something with 4 ports and active circuitry?",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Our Time in a Product Review Cabal: And the malware and backdoors that came with it.",
+      "speakers": ["Matt Virus", "Adam Schaal"],
+      "date": "2023-08-16T17:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["hacking"],
+      "url": "https://media.ccc.de/v/camp2023-57126-our_time_in_a_product_review_cabal",
+      "duration": "PT45M",
+      "description": "What did you do during the pandemic? We started a Product Review Cabal. Follow our journey from getting a postcard in a product box to us exhausting all of our many online retailer sock accounts. We’ll teach you how we got free packages nearly every day… **but there’s a catch**. _Most of the products arrive with malware, backdoors, or glaring vulnerabilities_. ",
+      "liked": true,
+      "attended": true
     }
   ]
 }
