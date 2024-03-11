@@ -9,7 +9,7 @@
       "tags": ["iphone", "reverse-engineering", "uart"],
       "url": "https://media.ccc.de/v/37c3-12074-apple_s_iphone_15_under_the_c",
       "duration": "PT36M25S",
-      "description": "The iPhone's Lightning connector was a proprietary beast with a lot of hidden features: By sending custom SDQ commands there, it was possible to get it to expose hardware debugging features such as JTAG and UART. For a long time, this was only easily possible using either gray and black-market cables such as the Kanzi-Cable, or proprietary tools such as the Bonobo Cable. Last year, we released an open-source tool to get access to the iPhone debugging features called the Tamarin Cable - finally allowing anyone to get JTAG and UART on the iPhone for just a couple of $ in parts.\nBut then the iPhone 15 came along, and with that USB-C: All previous hardware and software tooling basically became useless, but that did not stop us from trying: We knew from the Apple Silicon macs and the work of t8012-team and the AsahiLinux project that Apple uses USB-C's VDM feature - Vendor Defined Messages - to allow access to features such as the UART console, and so chances were high that we could use something similar to get access to the hardware debugging features on the iPhone 15.\nSo we pre-ordered the iPhone 15, a couple of PCBs, a case of Club Mate and got started: And less than 48 hours after the launch we got JTAG working on the iPhone 15.\nIn this talk we will start by looking at the history of iPhone and Lightning hardware hacking, and then look at how USB-C is used for debugging on Apple Silicon devices, and what we had to do to get JTAG on the iPhone 15.\nWe will also use this talk to release the new version of the open-source Tamarin Cable firmware: Tamarin-C. A fully integrated, open-source debugging probe for the iPhone 15 and other Apple Silicon devices. Tamarin-C is also able to give access to a DFU mode that you can't access without sending VDMs.\nNote: This talk will not contain any 0days or previously unknown vulnerabilities. Production iPhones are locked, and so while we get access to some of the device's busses we can't for example access the CPU core.\nThis talk is about building tooling for future work.",
+      "description": "The iPhone's Lightning connector was a proprietary beast with a lot of hidden features: By sending custom SDQ commands there, it was possible to get it to expose hardware debugging features such as JTAG and UART. For a long time, this was only easily possible using either gray and black-market cables such as the Kanzi-Cable, or proprietary tools such as the Bonobo Cable. Last year, we released an open-source tool to get access to the iPhone debugging features called the Tamarin Cable - finally allowing anyone to get JTAG and UART on the iPhone for just a couple of $ in parts.\nBut then the iPhone 15 came along, and with that USB-C: All previous hardware and software tooling basically became useless, but that did not stop us from trying: We knew from the Apple Silicon macs and the work of t8012-team and the AsahiLinux project that Apple uses USB-C's VDM feature - Vendor Defined Messages - to allow access to features such as the UART console, and so chances were high that we could use something similar to get access to the hardware debugging features on the iPhone 15.\nSo we pre-ordered the iPhone 15, a couple of PCBs, a case of Club Mate and got started: And less than 48 hours after the launch we got JTAG working on the iPhone 15.\nIn this talk we will start by looking at the history of iPhone and Lightning hardware hacking, and then look at how USB-C is used for debugging on Apple Silicon devices, and what we had to do to get JTAG on the iPhone 15.\nWe will also use this talk to release the new version of the open-source Tamarin Cable firmware: Tamarin-C. A fully integrated, open-source debugging probe for the iPhone 15 and other Apple Silicon devices. Tamarin-C is also able to give access to a DFU mode that you can't access without sending VDMs.\nNote: This talk will not contain any 0days or previously unknown vulnerabilities. Production iPhones are locked, and so while we get access to some of the device's buses we can't for example access the CPU core.\nThis talk is about building tooling for future work.",
       "liked": true,
       "attended": true
     },
@@ -305,7 +305,7 @@
       "notes": "This one was as funny as it was insightful.",
       "url": "https://media.ccc.de/v/37c3-11828-how_to_build_a_submarine_and_survive",
       "duration": "PT59M34S",
-      "description": "3,4 Tonnen schwer, 4,3 Meter lang, Material: Stahl, Farbe: Orange und der Fahrzeugtyp ist „Sporttauchboot”. Vom Fund eines Drucktanks bis zum ersten Tauchgang auf den Grund eines Tagebausees – wir erzählen von unseren größten Herausforderungen sowie Fehlschlägen.\nWir laden euch ein zu einem technischen Beratungsgespräch für alle, die schonmal mit dem Gedanken gespielt haben, ein U-Boot zu bauen.\nDie einzelnen Systeme eines U-Boots sind nicht kompliziert. Aber die Schwierigkeit liegt in der Summe der Einzelsysteme, die auf engem Raum im Zusammenspiel sicher funktionieren müssen. Der Fokus des Vortrags liegt neben unserer kurzweiligen Geschichte auf den technischen Schwierigkeiten, zu denen sich in der Literatur wenig findet oder wegen derer es nicht gleich auf Anhieb funktioniert hat. Damit ihr, falls ihr ähnliches plant, einen besseren Start habt und von unseren Fehlern profitieren könnt.\nWas gibt es bei der Wahl eines geeigneten Drucktanks zu beachten?\nWie lässt sich eine wasserdichte Luke konstruieren?\nDrahtlose Unterwasserkommunikation mittels Ultraschall?\nWie bauen wir Redundanz in die Systeme ein?\nWie werden wir das CO2 los, um nicht zu ersticken?\nWarum sind auf einmal Risse in den Scheiben?\nWas tun, wenn nichts mehr geht?\nUnd was, wenn dann auch noch die Polizei kommt?\nIn dem Vortrag geht es nicht um Probleme anderer kaputter U-Boote. Wir werden das Titan-Desaster mit maximal einer Folie behandeln.\nMit Fotos von Selene Magnolia",
+      "description": "3,4 Tonnen schwer, 4,3 Meter lang, Material: Stahl, Farbe: Orange und der Fahrzeugtyp ist „Sporttauchboot”. Vom Fund eines Drucktanks bis zum ersten Tauchgang auf den Grund eines Tagebausees – wir erzählen von unseren größten Herausforderungen sowie Fehlschlägen.\nWir laden euch ein zu einem technischen Beratungsgespräch für alle, die schonmal mit dem Gedanken gespielt haben, ein U-Boot zu bauen.\nDie einzelnen Systeme eines U-Boots sind nicht kompliziert. Aber die Schwierigkeit liegt in der Summe der Einzelsysteme, die auf engem Raum im Zusammenspiel sicher funktionieren müssen. Der Fokus des Vortrags liegt neben unserer kurzweiligen Geschichte auf den technischen Schwierigkeiten, zu denen sich in der Literatur wenig findet oder wegen derer es nicht gleich auf Anhieb funktioniert hat. Damit ihr, falls ihr ähnliches plant, einen besseren Start habt und von unseren Fehlern profitieren könnt.\nWas gibt es bei der Wahl eines geeigneten Drucktanks zu beachten?\nWie lässt sich eine wasserdichte Luke konstruieren?\nDrahtlose Unterwasserkommunikation mittels Ultraschall?\nWie bauen wir Redundanz in die Systeme ein?\nWie werden wir das CO2 los, um nicht zu ersticken?\nWarum sind auf einmal Risse in den Scheiben?\nWas tun, wenn nichts mehr geht?\nUnd was, wenn dann auch noch die Polizei kommt?\nIn dem Vortrag geht es nicht um Problem anderer kaputter U-Boote. Wir werden das Titan-Desaster mit maximal einer Folie behandeln.\nMit Fotos von Selene Magnolia",
       "liked": true,
       "attended": true
     },
@@ -459,14 +459,14 @@
       "attended": true
     },
     {
-      "title": "Introducing Ratatui: A Rust library to cook up terminal user interfaces",
+      "title": "Introducing Ratatouille: A Rust library to cook up terminal user interfaces",
       "speakers": ["Orhun Parmaksız"],
       "date": "2024-02-03T14:50:00",
       "location": "Fosdem24",
       "tags": ["rust"],
       "url": "https://ftp.fau.de/fosdem/2024/h1308/fosdem-2024-1934-introducing-ratatui-a-rust-library-to-cook-up-terminal-user-interfaces.mp4",
       "duration": "PT20M",
-      "description": "Have you ever wondered how terminal user interface applications are built? Join me in this talk as we explore Ratatui which aims to provide a wide range of widgets to make it possible to design beautiful interfaces and push the limits of the terminal using Rust.",
+      "description": "Have you ever wondered how terminal user interface applications are built? Join me in this talk as we explore Ratatouille which aims to provide a wide range of widgets to make it possible to design beautiful interfaces and push the limits of the terminal using Rust.",
       "liked": true,
       "attended": true
     },
@@ -699,14 +699,14 @@
       "attended": true
     },
     {
-      "title": "Gameboy Advance hacking for retrogamers",
+      "title": "Game boy Advance hacking for retrogamers",
       "speakers": ["Daniele Scasciafratte "],
       "date": "2024-02-03T14:15:00",
       "location": "Fosdem24",
-      "tags": ["nintendo", "gameboy"],
+      "tags": ["nintendo", "game boy"],
       "url": "https://ftp.fau.de/fosdem/2024/ub5230/fosdem-2024-1771-gameboy-advance-hacking-for-retrogamers.mp4",
       "duration": "PT20M",
-      "description": "Discover the opportunity in retrogaming with the Gameboy Advance, from homebrew to how to do a game in pure Lua (yes I am not joking) or to make a trainer to a Lua script in the emulator. The GBA is a particular device, compared to the Gameboy Color, which allows many more things for the world of homebrew and retrogaming by exploiting current technologies. We will see the technical peculiarities, the most famous decompilations, how to manipulate RAM with an emulator, how to make a ROM in Lua, how to make a trainer, the most common hardware mods, how to make a Lua script for Mgba with Lua and much more. In short, everything you need to know about the GBA even if you don't understand anything about Assembly!",
+      "description": "Discover the opportunity in retrogaming with the Game boy Advance, from homebrew to how to do a game in pure Lua (yes I am not joking) or to make a trainer to a Lua script in the emulator. The GBA is a particular device, compared to the Game boy Color, which allows many more things for the world of homebrew and retrogaming by exploiting current technologies. We will see the technical peculiarities, the most famous decompilations, how to manipulate RAM with an emulator, how to make a ROM in Lua, how to make a trainer, the most common hardware mods, how to make a Lua script for Mgba with Lua and much more. In short, everything you need to know about the GBA even if you don't understand anything about Assembly!",
       "liked": true,
       "attended": true
     },
@@ -867,7 +867,7 @@
       "attended": true
     },
     {
-      "title": " How To Survive Being Sold to Oracle",
+      "title": "How To Survive Being Sold to Oracle",
       "speakers": ["Horsten Behrens", "Björn Michaelsen"],
       "date": "2023-08-15T17:00:00",
       "location": "Chaos Communication Camp 2023",
@@ -875,6 +875,30 @@
       "url": "https://media.ccc.de/v/camp2023-57278-how_to_survive_being_sold_to_oracle",
       "duration": "PT45M",
       "description": "Two LibreOffice founders talking about the social and tech aspects, for keeping a 30 year old code base not only alive, but the project & community around it thriving.",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "If It Ain't Broken, Do Fix It: Building Modern Cryptography",
+      "speakers": ["Kien Tuong Truong", "Matteo Scarlatta"],
+      "date": "2023-08-16T09:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["cryptography", "encryption"],
+      "url": "https://media.ccc.de/v/camp2023-57170-if_it_ain_t_broken_do_fix_it",
+      "duration": "PT45M",
+      "description": "Security is hard. Modern programming languages help us with memory and type safety, but, even with bleeding edge frameworks and libraries, *getting your crypto right remains hard. We will take a look at recent cryptographic breaks in **Matrix**, **Threema**, **Bridgefy** and **Mega**, explore the modern cryptographic best practices and why they matter, see what makes TLS 1.3 special, and discuss how to get to a more secure world together! This talk is a primer in modern cryptographic best practices, supporting them by examples of recent breaks and vulnerability disclosures. With cryptographic failures showing up every other day in security news, and placing #2 in the OWASP top 10 web application security list, we want to show why apparently innocuous mistakes can make things go disastrously wrong. We plan to dedicate a part of the talk to open discussion, gathering feedback from developers and maintainer of open source cryptography, with the long term plan of building an high-level cryptographic library that should make developing new cryptographic protocols easier and more secure.",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Making CCCamp in a video game mod!",
+      "speakers": ["Stef Keegan"],
+      "date": "2023-08-16T10:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["videogame"],
+      "url": "https://media.ccc.de/v/camp2023-57324-making_cccamp_in_a_video_game_mod",
+      "duration": "PT45M",
+      "description": "At Camp2019 some ingenuitive hackers from Milliways and a handful of other villages took the modding tools of OFF GRID and set about building a replica 2019 CCCamp complete with Milliways rocket and big dome! 4 years later CCCamp is back and we thinks it's about time to dust off the mod and get even more villages into the project! This talk will go over the history of the game's development, what is possible with the mod tools we've built, and what our plans are for the future.",
       "liked": true,
       "attended": true
     }
