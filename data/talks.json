@@ -937,6 +937,66 @@
       "description": "The complete story of Project Blinkenlights: achievements, failures, technology and its cultural impact. In 2001, the Chaos Computer Club surprised the world with a simple but impressive interactive light installation on a building in the heart of Berlin: Blinkenlights illuminated 144 windows forming a huge but low-resolution pixel matrix on the facade of House of the Teacher at Alexanderplatz. But this was just the beginning. Much bigger follow-ups took place in Paris and Toronto and in between a lot of other things happenend. This talk shows it all: what worked, what did not work, the good ideas, the bad ideas and all that jazz. This year at Camp, we celebrate Blinkenlights history with another interactive light installation at the Camp.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Modern Java in Action",
+      "speakers": ["Nicolai Parlog"],
+      "date": "2024-02-07T13:00:00",
+      "location": "Jfokus24",
+      "tags": ["java"],
+      "url": "https://www.youtube.com/watch?v=4UDwrfTNmo4",
+      "duration": "PT50M",
+      "description": "Let's write a GitHub Crawler and let's throw in everything Java (21) has to offer. The end result will look very different from just a few years ago, let alone 10. This is not your dad's Java!",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Design Patterns Revisited in Modern Java",
+      "speakers": ["Venkat Subramaniam"],
+      "date": "2024-02-06T11:50:00",
+      "location": "Jfokus24",
+      "tags": ["java", "design patterns"],
+      "url": "https://www.youtube.com/watch?v=68EhQ8NG220",
+      "duration": "PT50M",
+      "description": "Design Patterns are common ways to solve problems that developers have discovered over time. They often fill the gaps between the language capabilities and the design goals. When languages mature, sometimes patterns become natural features of languages and blend in to the natural way of writing code instead of a special effort. Java has evolved significantly over the years. In this session we will revisit some common design problems and see how patterns are realized to solve those problems with the modern capabilities in Java.",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Escaping Developer Nightmares: DORA Edition",
+      "speakers": ["Rustam Mehmandarov"],
+      "date": "2024-02-07T15:35:00",
+      "location": "Jfokus24",
+      "tags": ["java", "dora"],
+      "url": "https://www.youtube.com/watch?v=KGdqv0jrTzE",
+      "duration": "PT15M",
+      "description": "Have you been working on legacy projects with outdated codebases, less than optimal documentation, and relying on obsolete technologies? Were you told it is gold-plating or simply too much work to fix? Well, you are not alone! This presentation draws from my experiences as a tech lead and software reviewer, highlighting the prevalence and impact of these issues. It also delves into the importance of adopting modern development practices, such as static analysis, CI/CD pipelines, and adherence to DORA principles (dora.dev), to effectively maintain and enhance the quality of legacy code.",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Five things every developer should know about software architecture",
+      "speakers": ["Simon Brown"],
+      "date": "2024-02-07T09:00:00",
+      "location": "Jfokus24",
+      "tags": ["java", "architecture"],
+      "url": "https://www.youtube.com/watch?v=jzp0PGVegHA",
+      "duration": "PT45M",
+      "description": "The software development industry has made huge leaps in recent years, yet software development teams are often more chaotic than they are self-organizing, with the resulting code being more of a mess than was perhaps anticipated. Successful software projects aren't just about good code, and sometimes you need to step away from the IDE for a few moments to see the bigger picture. This aimed at software developers who want to learn more about software architecture, technical leadership and the balance with agility.",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Gaming optimization design patterns you should apply to your web app",
+      "speakers": ["Yonatan Kra"],
+      "date": "2024-02-06T16:00:00",
+      "location": "Jfokus24",
+      "tags": ["java", "design patterns"],
+      "url": "https://www.youtube.com/watch?v=udB8f37huYw",
+      "duration": "PT40M",
+      "description": "The gaming industry leads the way when it comes to optimization and user experience. In this talk we will walk through optimization design patterns used in the gaming industry and see how each affects computer hardware like CPU, memory and more. Moreover, we will see how you can be utilize these patterns in your applications today!",
+      "liked": true,
+      "attended": false
     }
   ]
 }
