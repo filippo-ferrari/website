@@ -82,6 +82,12 @@ i didn't customize the setup very much just:
 - lazygit 
 - other stuff I'm too lazy to remember
 
+Does this setup sucks for your usecase? Remove it with:
+```
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+```
+
 ## Calendar: calcurse
 [calcurse](https://calcurse.org/) is a calendar and scheduling application. Terminal based, has a configurable notification system, uses vim bindings. Cool stuff.
 
