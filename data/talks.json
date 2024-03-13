@@ -997,6 +997,30 @@
       "description": "The gaming industry leads the way when it comes to optimization and user experience. In this talk we will walk through optimization design patterns used in the gaming industry and see how each affects computer hardware like CPU, memory and more. Moreover, we will see how you can be utilize these patterns in your applications today!",
       "liked": true,
       "attended": false
+    },
+    {
+      "title": "GraalVM In a Nutshell",
+      "speakers": ["Alina Yurenko", "Shaun Smith"],
+      "date": "2024-02-07T11:10:00",
+      "location": "Jfokus24",
+      "tags": ["java", "graalvm"],
+      "url": "https://www.youtube.com/watch?v=R9m_HpmbquY",
+      "duration": "PT50M",
+      "description": "If you’ve heard about ahead-of-time compilation with GraalVM Native Image and are curious about what that actually looks like in practice, this session is for you! With unbeatable startup time, instant peak performance with no warm up, and low memory and CPU requirements, GraalVM generated native executables are the most efficient way to deploy microservices and other cloud native applications. To demonstrate this, Alina and Shaun will live code their way through a tour of GraalVM Native Image highlighting key features and benefits along the way. You’ll see why Spring Boot, Micronaut, Quarkus, and Helidon have all added out-of-the-box support for building microservices with GraalVM.",
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Java Virtual Threads and Pipelining of database operations",
+      "speakers": ["Kuassi Mensah"],
+      "date": "2024-02-07T15:35:00",
+      "location": "Jfokus24",
+      "tags": ["java", "threads"],
+      "url": "https://www.youtube.com/watch?v=9fgkCDZYnZw",
+      "duration": "PT13M",
+      "description": "Operating system threads are expensive. Virtual threads remove the need for reactive programming to scale Java applications. Synchronous database operations block user threads and prevent high scalability. With pipelined database operations, the database call returns immediately, and you can submit other operations, without waiting for previous submissions to finish.",
+      "liked": true,
+      "attended": false
     }
   ]
 }
