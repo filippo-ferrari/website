@@ -1021,6 +1021,18 @@
       "description": "Operating system threads are expensive. Virtual threads remove the need for reactive programming to scale Java applications. Synchronous database operations block user threads and prevent high scalability. With pipelined database operations, the database call returns immediately, and you can submit other operations, without waiting for previous submissions to finish.",
       "liked": true,
       "attended": false
+    },
+    {
+      "title": "Six things we learned implementing Rockstar on Quarkus",
+      "speakers": ["Hanno Embregts", "Holly Cummins"],
+      "date": "2024-02-06T17:00:00",
+      "location": "Jfokus24",
+      "tags": ["java", "quarkus"],
+      "url": "https://www.youtube.com/watch?v=qG9M1YrrmoE",
+      "duration": "PT50M",
+      "description": "Rockstar is an example of an “esoteric language,” designed to be interesting rather than intuitive, efficient or especially functional. Rockstar’s interesting feature is that its programs use the lyrical conventions of eighties rock ballads. Rockstar has been implemented in many languages, but not as a JVM language. This was clearly (clearly!) a gap that needed fixing, so Holly and Hanno have stepped in to make sure us JVM folks aren’t missing out. As a bonus, because “Bon Jova” is a JVM language, it can take advantage of Quarkus-y goodness. Along the way, a lot was learned about eighties music, classloaders, parsing, bytecode manipulation, and the important relationship between language style, syntax, and semantics.",
+      "liked": true,
+      "attended": false
     }
   ]
 }
