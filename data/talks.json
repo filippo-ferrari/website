@@ -1057,6 +1057,18 @@
       "description": "In this presentation, I will talk about how DDoS attacks were carried out generally in the last 11 years and how they innovated since then; I will also present more specific details about attacks against government websites from bundestag.de in 2012 to ukraine-wiederaufbauen.de and others in February - August 2023. This talk aims to also entertain but mostly educate on how to mitigate current attacks. You can expect technical, not political slides.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": " All cops are broadcasting: Obtaining the secret TETRA primitives after decades in the shadows ",
+      "speakers": ["Wouter Bokslag", "Jos Wetzels", "Carlo Meijer"],
+      "date": "2023-08-17T15:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["hacking", "security", "cryptography"],
+      "url": "https://media.ccc.de/v/camp2023-57100-all_cops_are_broadcasting",
+      "duration": "PT45M",
+      "description": "In this talk we will discuss the radio jailbreaking journey that enabled us to perform the first public disclosure and security analysis of the proprietary cryptography used in TETRA (Terrestrial Trunked Radio): a European standard for trunked radio globally used by government agencies, police, prisons, emergency services and military operators. Besides governemental applications, TETRA is also widely deployed in industrial environments such as factory campuses, harbor container terminals and airports, as well as critical infrastructure such as SCADA telecontrol of oil rigs, pipelines, transportation and electric and water utilities.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
