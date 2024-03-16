@@ -1033,6 +1033,30 @@
       "description": "Rockstar is an example of an “esoteric language,” designed to be interesting rather than intuitive, efficient or especially functional. Rockstar’s interesting feature is that its programs use the lyrical conventions of eighties rock ballads. Rockstar has been implemented in many languages, but not as a JVM language. This was clearly (clearly!) a gap that needed fixing, so Holly and Hanno have stepped in to make sure us JVM folks aren’t missing out. As a bonus, because “Bon Jova” is a JVM language, it can take advantage of Quarkus-y goodness. Along the way, a lot was learned about eighties music, classloaders, parsing, bytecode manipulation, and the important relationship between language style, syntax, and semantics.",
       "liked": true,
       "attended": false
+    },
+    {
+      "title": "Stories from the Life of an Incident Responder",
+      "speakers": ["harryr", "Kris"],
+      "date": "2023-08-16T23:45:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["it", "security"],
+      "url": "https://media.ccc.de/v/camp2023-57062-stories_from_the_life_of_an_incident_responder",
+      "duration": "PT45M",
+      "description": "The high number of IT security incidents in recent years shows that any institution can be caught out - regardless of whether it is an enterprise, a university, or a hospital. The attackers' methods are often similar and can be prevented by taking appropriate measures. But how exactly does such an attack typically take place? How do I protect my company against it? And what happens if it's too late and an incident response is needed? Which steps do you need to take, and how can you prepare in advance to support the incident responder of your trust?",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "How to survive getting DDoSed by Anonymous, Cyberberkut, Killnet and noname057(16) since 2012",
+      "speakers": ["craig"],
+      "date": "2023-08-16T13:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["hacking", "security"],
+      "url": "https://media.ccc.de/v/camp2023-57023-how_to_survive_getting_ddosed_by_anonymous_cyberberkut_killnet_and_noname057_16_since_2012",
+      "duration": "PT45M",
+      "description": "In this presentation, I will talk about how DDoS attacks were carried out generally in the last 11 years and how they innovated since then; I will also present more specific details about attacks against government websites from bundestag.de in 2012 to ukraine-wiederaufbauen.de and others in February - August 2023. This talk aims to also entertain but mostly educate on how to mitigate current attacks. You can expect technical, not political slides.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
