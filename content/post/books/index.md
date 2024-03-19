@@ -30,6 +30,7 @@ the [F] tag means that the book is available freely online. A great starting poi
 - [Algorithmic Thinking, 2nd Edition: Unlock Your Programming Potential](https://nostarch.com/algorithmic-thinking-2nd-edition)
 - [What every programmer should know about memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf) [F]
 - [You Don't Know JS Yet](https://github.com/gongzhang/you-dont-know-js-epub) [F]
+- [Refactoring](https://martinfowler.com/books/refactoring.html)
 
 # Open Source/ Free software
 - [The Cathedral and the Bazaar](https://www.google.it/books/edition/The_Cathedral_the_Bazaar/F6qgFtLwpJgC?hl=en&gbpv=0)
