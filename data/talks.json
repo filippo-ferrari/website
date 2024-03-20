@@ -1081,6 +1081,18 @@
       "description": "In the past months, we reported vulnerabilities to various companies. In addition, we have alerted over thirty companies that they were currently being hacked. In this presentation, we will share our most interesting anecdotes. Part 1: Your company receives a vulnerability report for free. We will show you how you can still mess it up. Part 2: You hack companies for ransomware groups. We will show you how you can still mess it up.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": " Ethical hacking, good intentions and questionable outcomes ",
+      "speakers": ["Joakim Tauren"],
+      "date": "2023-08-17T16:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["hacking", "security"],
+      "url": "https://media.ccc.de/v/camp2023-57272-disclosure_hack_and_back",
+      "duration": "PT45M",
+      "description": "We've all been there, we knocked a company offline while doing some well intended security testing. How many requests per second is considered ethical? How deep into a system can you go, dump the database or not? Reverse shell or touch /tmp/pwned? What are YOUR ethical boundaries?",
+      "liked": true,
+      "attended": true
     }
   ]
 }
