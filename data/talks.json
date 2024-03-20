@@ -1069,6 +1069,18 @@
       "description": "In this talk we will discuss the radio jailbreaking journey that enabled us to perform the first public disclosure and security analysis of the proprietary cryptography used in TETRA (Terrestrial Trunked Radio): a European standard for trunked radio globally used by government agencies, police, prisons, emergency services and military operators. Besides governemental applications, TETRA is also widely deployed in industrial environments such as factory campuses, harbor container terminals and airports, as well as critical infrastructure such as SCADA telecontrol of oil rigs, pipelines, transportation and electric and water utilities.",
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Disclosure, Hack and Back",
+      "speakers": ["kantorkel", "Linus Neumann"],
+      "date": "2023-08-16T22:00:00",
+      "location": "Chaos Communication Camp 2023",
+      "tags": ["hacking", "security"],
+      "url": "https://media.ccc.de/v/camp2023-57272-disclosure_hack_and_back",
+      "duration": "PT45M",
+      "description": "In the past months, we reported vulnerabilities to various companies. In addition, we have alerted over thirty companies that they were currently being hacked. In this presentation, we will share our most interesting anecdotes. Part 1: Your company receives a vulnerability report for free. We will show you how you can still mess it up. Part 2: You hack companies for ransomware groups. We will show you how you can still mess it up.",
+      "liked": true,
+      "attended": true
     }
   ]
 }
