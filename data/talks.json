@@ -1083,7 +1083,7 @@
       "attended": true
     },
     {
-      "title": " Ethical hacking, good intentions and questionable outcomes ",
+      "title": " Ethical hacking, good intentions and questionable outcomes",
       "speakers": ["Joakim Tauren"],
       "date": "2023-08-17T16:00:00",
       "location": "Chaos Communication Camp 2023",
@@ -1091,6 +1091,17 @@
       "url": "https://media.ccc.de/v/camp2023-57306-ethical_hacking_good_intentions_and_questionable_outcomes",
       "duration": "PT45M",
       "description": "We've all been there, we knocked a company offline while doing some well intended security testing. How many requests per second is considered ethical? How deep into a system can you go, dump the database or not? Reverse shell or touch /tmp/pwned? What are YOUR ethical boundaries?",
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Sending text messages through space",
+      "speakers": ["Joakim Tauren"],
+      "date": "2024-05-31T11:00:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["space"],
+      "duration": "PT30M",
+      "description": "When we’re out and about, text messages (and also voice calls, mobile data etc.) sent and received through our everyday smartphones are all routed through fixed land-based ‘cell tower’ antennas no more than a few km distant, which form what we might term a ‘Terrestrial Network’ (TN). In rural areas, we often lose cellular wireless signal entirely, even within highly technologically advanced economies such as the UK, EU, US etc. We then find that we are unable to send or receive text messages, even emergency messages." ,
       "liked": true,
       "attended": true
     }
