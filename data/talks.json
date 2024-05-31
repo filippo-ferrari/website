@@ -1126,6 +1126,39 @@
       "description": "I finally created a clock that automatically corrects itself as you carry it across country and timezone borders. The journey to this point was so ridiculously tedious that it borders on the absurd. In this talk I'll run through some of the highlights, and of course no talk about GPS time would be complete without mentioning leap seconds, which cause problems even when they don't happen." ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "A Short History of Electric Shocks",
+      "speakers": ["Tim Hunkin"],
+      "date": "2024-05-31T15:50:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["electronics", "electrical"],
+      "duration": "PT40M",
+      "description": "This talk is about our delight, awe and fear of electricity and its effects on the human body. It charts our changing relationship with it from the 18th century to today. I particularly love the 18th century gentlemen scientists with their electrical entertainments - particularly because they appreciated the magic of electriocity and were so excited by it. Its sad that people today just take electricity for granted. Over the years I've accumulated a collection of contemporary images which I'll use to illustrate the talk. It may include a few demonstations as well. " ,
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Photobombed by a Robot Arm in space",
+      "speakers": ["Richard Hayler"],
+      "date": "2024-05-31T16:10:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["space", "robot"],
+      "duration": "PT30M",
+      "description": "Get ready to take a trip into space. We'll be travelling 400km up to the International Space Station, to take a look at Earth through the lens of the Astro Pi computers that were sent there in 2020. This talk will focus on what has been learnt from years of giving young people the chance to take photos from the ISS using affordable commercial hardware. There will be plenty of the amazing images that have been captured so far, along with some examples of unexpected interruptions and the challenges when you can’t actually see or touch the equipment yourself." ,
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Coding Beyond the Screen: The unique challenges of programming massive public laser displays",
+      "speakers": ["Seb Lee-Delisle"],
+      "date": "2024-05-31T18:00:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["coding", "leds"],
+      "duration": "PT30M",
+      "description": "Join BAFTA winning digital artist Seb Lee-Delisle in this engaging talk about his life and work over the past few years. Although Seb is known for his large and spectacular outdoor light and laser shows, he is fundamentally a coder. In this fun keynote, he’ll talk about the unique challenges of working with computers at this scale, and demonstrate how to code mesmerising particle effects with an actual laser. " ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
