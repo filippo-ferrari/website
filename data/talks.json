@@ -1115,6 +1115,17 @@
       "description": "Always thought it was expensive to receive signals from Space? In this talk I will go through the simple homebrew antennas and cheap (around £10) receivers that you can use to get such diverse things as weather satellite images, pictures from the ISS, receive telemetry from the orbiting CubeSats, and even begin communicating with the first Amateur Geosynchronous Satellite, QO-100 where you can receive TV pictures from amateurs across the world with a rust old satellite dish and a cheap LNB. It is amazing what you can do with a piece of bent water pipe or a coat hanger!" ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "GPS time, leap seconds, and a clock that's always right",
+      "speakers": ["Tim Jacobs"],
+      "date": "2024-05-31T13:00:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["time"],
+      "duration": "PT30M",
+      "description": "I finally created a clock that automatically corrects itself as you carry it across country and timezone borders. The journey to this point was so ridiculously tedious that it borders on the absurd. In this talk I'll run through some of the highlights, and of course no talk about GPS time would be complete without mentioning leap seconds, which cause problems even when they don't happen." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
