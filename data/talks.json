@@ -1096,12 +1096,23 @@
     },
     {
       "title": "Sending text messages through space",
-      "speakers": ["Joakim Tauren"],
+      "speakers": ["Joakim Tauren"],//TODO correct the speaker
       "date": "2024-05-31T11:00:00",
       "location": "Electromagnetic Field 2024",
       "tags": ["space"],
       "duration": "PT30M",
       "description": "When we’re out and about, text messages (and also voice calls, mobile data etc.) sent and received through our everyday smartphones are all routed through fixed land-based ‘cell tower’ antennas no more than a few km distant, which form what we might term a ‘Terrestrial Network’ (TN). In rural areas, we often lose cellular wireless signal entirely, even within highly technologically advanced economies such as the UK, EU, US etc. We then find that we are unable to send or receive text messages, even emergency messages." ,
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Working Amateur Satellites on a Budget",
+      "speakers": ["Heather Nickalls"],
+      "date": "2024-05-31T13:50:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["space", "satellites"],
+      "duration": "PT30M",
+      "description": "Always thought it was expensive to receive signals from Space? In this talk I will go through the simple homebrew antennas and cheap (around £10) receivers that you can use to get such diverse things as weather satellite images, pictures from the ISS, receive telemetry from the orbiting CubeSats, and even begin communicating with the first Amateur Geosynchronous Satellite, QO-100 where you can receive TV pictures from amateurs across the world with a rust old satellite dish and a cheap LNB. It is amazing what you can do with a piece of bent water pipe or a coat hanger!" ,
       "liked": true,
       "attended": true
     }
