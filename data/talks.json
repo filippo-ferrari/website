@@ -1214,6 +1214,28 @@
       "description": "I will briefly describe the anatomy of a rocket engine and why the extreme conditions it must endure make designing one hard, and then introduce powder metal 3D printing and how you print an engine. I work for a company in this field, and I will show various images and videos of our engines being fired, as well as the engines themselves so that people can have a look, and some samples with internal cutaways to show the internal structures that 3D printing technology now makes relatively easy. " ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Astrophysics for Supervillains",
+      "speakers": ["Matthew Bothwell"],
+      "date": "2024-06-02T14:40:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["universe", "astrophysics"],
+      "duration": "PT30M",
+      "description": "Discover the answers to these questions (and many more!) at \"Astrophysics for Supervillains\"! Facts about space are all well and good but discovering that if you threw someone into a black hole, they would be spaghettified – stretched out long and thin before getting squashed smaller than an atom – is truly, fascinatingly gruesome." ,
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Unlimited Power: An Engineer's Low-Down on Nuclear Fusion Technology",
+      "speakers": ["James Pope"],
+      "date": "2024-06-02T16:10:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["fusion", "nuclear"],
+      "duration": "PT30M",
+      "description": "Most technical people hear about fusion power in the news or see it in games and movies, and are familiar with the joke that it's always 20 years away. Beyond this, it's surprisingly rare to find good information beyond the basic physics and the marketing promise of unlimited, clean energy." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
