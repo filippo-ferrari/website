@@ -1236,6 +1236,17 @@
       "description": "Most technical people hear about fusion power in the news or see it in games and movies, and are familiar with the joke that it's always 20 years away. Beyond this, it's surprisingly rare to find good information beyond the basic physics and the marketing promise of unlimited, clean energy." ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "HEU1993 to WHY2025: Dutch hacker camps from the past and the future",
+      "speakers": ["Boekenwuurm"],
+      "date": "2024-06-02T18:10:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["dutch", "camp"],
+      "duration": "PT30M",
+      "description": "The Dutch hacker camps take place between editions of EMF. They have a long history and a bright future! In this talk the Dutch camps from the past will be visited and the state of the next camp, WHY2025, will be presented." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
