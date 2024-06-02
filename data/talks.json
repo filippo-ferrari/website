@@ -1192,6 +1192,28 @@
       "description": "Double Oscar winner Paul Franklin talks about his 30 year career in the movies and how he has brought some of modern cinema’s most iconic imagery to the screen." ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Does Robot Wars have a Meta?",
+      "speakers": ["Gareth Anstee"],
+      "date": "2024-06-02T15:40:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["robot", "wars"],
+      "duration": "PT30M",
+      "description": "Robot Wars is a TV show that inspired a generation of engineers to take up the sport of \"Robot Combat\", but what drove success in the design of those competing? Looking at some famous matches and designs, this talk will break down the rock-paper-scissors of the sport, and try to provide an understanding of how this can help to educate a new generation of engineers today." ,
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "How to 3D Print A Rocket Engine",
+      "speakers": ["Ed Moore"],
+      "date": "2024-06-02T16:10:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["3d", "printer"],
+      "duration": "PT30M",
+      "description": "I will briefly describe the anatomy of a rocket engine and why the extreme conditions it must endure make designing one hard, and then introduce powder metal 3D printing and how you print an engine. I work for a company in this field, and I will show various images and videos of our engines being fired, as well as the engines themselves so that people can have a look, and some samples with internal cutaways to show the internal structures that 3D printing technology now makes relatively easy. " ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
