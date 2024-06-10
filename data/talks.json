@@ -1238,6 +1238,17 @@
       "attended": true
     },
     {
+      "title": "HEU1993 to WHY2025: Dutch hacker camps from the past and the future",
+      "speakers": ["Boekenwuurm"],
+      "date": "2024-06-02T18:10:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["dutch", "camp"],
+      "duration": "PT30M",
+      "description": "The Dutch hacker camps take place between editions of EMF. They have a long history and a bright future! In this talk the Dutch camps from the past will be visited and the state of the next camp, WHY2025, will be presented." ,
+      "liked": true,
+      "attended": true
+    },
+    {
       "title": "Run your own fucking infrastructure - 2024 edition",
       "speakers": ["Elmar mc.fly Lecher"],
       "date": "2024-05-30T11:40:00",
