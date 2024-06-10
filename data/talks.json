@@ -1236,6 +1236,17 @@
       "description": "Most technical people hear about fusion power in the news or see it in games and movies, and are familiar with the joke that it's always 20 years away. Beyond this, it's surprisingly rare to find good information beyond the basic physics and the marketing promise of unlimited, clean energy." ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Run your own fucking infrastructure - 2024 edition",
+      "speakers": ["Elmar mc.fly Lecher"],
+      "date": "2024-05-30T11:40:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["server", "infrastructure"],
+      "duration": "PT30M",
+      "description": "In a 2012 talk about running your own infrastructure I made some predictions on the future and made some claims. A long time has passed and let's see what came true and what was not so correct. After that talk we also started building our own infrastructure. I will show what we are running, what you can run and share experiences running infrastructure for larger groups of people." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
