@@ -32,6 +32,9 @@ the [F] tag means that the book is available freely online. A great starting poi
 - [You Don't Know JS Yet](https://github.com/gongzhang/you-dont-know-js-epub) [F]
 - [Refactoring](https://martinfowler.com/books/refactoring.html)
 - [Elegant Objects](https://www.elegantobjects.org/)
+- [Designing Data-intensive Applications](https://books.google.it/books/about/Designing_Data_intensive_Applications.html?id=BM7woQEACAAJ&redir_esc=y)
+- [Growing Object-Oriented Software Guided by Tests](http://growing-object-oriented-software.com/)
+- [Java Concurrency In Practice](https://www.google.it/books/edition/Java_Concurrency_in_Practice/mzgFCAAAQBAJ)
 
 # Open Source/ Free software
 - [The Cathedral and the Bazaar](https://www.google.it/books/edition/The_Cathedral_the_Bazaar/F6qgFtLwpJgC?hl=en&gbpv=0)
