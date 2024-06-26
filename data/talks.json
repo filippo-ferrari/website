@@ -1258,6 +1258,28 @@
       "description": "In a 2012 talk about running your own infrastructure I made some predictions on the future and made some claims. A long time has passed and let's see what came true and what was not so correct. After that talk we also started building our own infrastructure. I will show what we are running, what you can run and share experiences running infrastructure for larger groups of people." ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Thomas the Privatised Tank Engine 30 years on",
+      "speakers": ["Ashley Rolfmore"],
+      "date": "2024-06-01T16:30:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["train", "railway"],
+      "duration": "PT30M",
+      "description": "Today, the railway system is now part public part private, leaving plenty of confusion for passengers. Who runs your local station? Who sets the rail fares, and who covers your refund? And where the hell does HS1 and HS2 fit into all this? I will take you through how the UK rail organisations are structured, who does and owns what, and how does this affect passengers?" ,
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "CERN Technology: Following the White Rabbit down a 27km hole.",
+      "speakers": ["Laurence Stant"],
+      "date": "2024-06-01T13:50:00",
+      "location": "Electromagnetic Field 2024",
+      "tags": ["cern", "accellerator"],
+      "duration": "PT50M",
+      "description": "This talk, delivered by a beam instrumentation engineer at CERN, will introduce CERN and it's accelerator complex, and discuss the technology required to deliver one petabyte of cutting-edge science per day to over 170 research facilities in 36 countries. The talk will also cover some of CERN's open source software and hardware contributions to date, and finally explore their science and technology roadmap for the coming years." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
