@@ -1304,6 +1304,30 @@
       "description": "Serverless computing revolutionizes how we build and run applications by abstracting server management, delivering fine granular auto-scaling, and billing only for execution time. This enables developers to focus on code, not infrastructure. Join this talk to understand how you can build and deploy cloud-native and Serverless Spring applications. You will learn how to run already existing Spring Boot applications in a Serverless environment with the AWS Serverless Java container and its integration with the Spring ecosystem. You will also learn how-to develop new event-driven applications with Spring Cloud Function. We will also cover support for GraalVM native images, developer tooling and additional performance optimizations" ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Magical Beans and Mystery",
+      "speakers": ["Timo Salm", "Tiffany Jernigan"],
+      "date": "2024-05-30T16:30:00",
+      "location": "Spring I/O 2024",
+      "tags": ["beans", "java"],
+      "url": "https://www.youtube.com/watch?v=yTSnBclhk38",
+      "duration": "PT50M",
+      "description": "o you just created a Spring Boot project at start.spring.io, but then what? Don’t worry! Tiffany was just there too, and now we are here to help. Join us as we explore Spring at a beginner’s pace.Even though Spring makes Java development so much easier, the initial learning curve can feel daunting (there are over 20 years of resources after all!). Let’s break down what to look at first, and how to continue learning from there. We’ll start with the Spring Framework and its core building blocks, such as the IoC container and these magical beans. Next, we’ll dive into Spring Boot, an extension of the Spring Framework that simplifies and speeds up application development through autoconfiguration for various integrations and more." ,
+      "liked": true,
+      "attended": true
+    },
+    {
+      "title": "Mind the gap, connecting high performance systems at a leading Crypto Exchange",
+      "speakers": ["Marcos Maia", " Lars Werkman"],
+      "date": "2024-05-30T15:00:00",
+      "location": "Spring I/O 2024",
+      "tags": ["crypto", "java"],
+      "url": "https://www.youtube.com/watch?v=BKVWr65z8dQ",
+      "duration": "PT50M",
+      "description": "As one of Europe’s leading Crypto Exchanges, Bitvavo enables its ~2 million customers to buy, sell and store over 200 digital assets and provides a 24/7 service processing many thousands of transactions per second with stable sub millisecond execution times on its order flow. In this talk we will deep dive on the high level architecture of Bitvavo Exchange and discuss how we use Spring Boot to bridge the integration and monitoring of our systems with the ultra low latency Exchange and Matching Engine Systems. We will cover architectural patterns, lessons learned and good practices routing and processing high volumes of market data to Databases and Kafka while maintaining the high performance and scalability required from the leading Crypto Exchange in Europe." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
