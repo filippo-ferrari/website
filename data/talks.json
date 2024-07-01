@@ -1280,6 +1280,18 @@
       "description": "This talk, delivered by a beam instrumentation engineer at CERN, will introduce CERN and it's accelerator complex, and discuss the technology required to deliver one petabyte of cutting-edge science per day to over 170 research facilities in 36 countries. The talk will also cover some of CERN's open source software and hardware contributions to date, and finally explore their science and technology roadmap for the coming years." ,
       "liked": true,
       "attended": true
-    }
+    },
+    {
+      "title": "Continuations: The magic behind virtual threads in Java",
+      "speakers": ["Balkrishna Rawool"],
+      "date": "2024-05-30T12:00:00",
+      "location": "Spring I/O 2024",
+      "tags": ["threads", "java"],
+      "url": "https://www.youtube.com/watch?v=pwLtYvRK334",
+      "duration": "PT50M",
+      "description": "Have you wondered how virtual threads in Java are able to provide such high scalability? How is JVM able to switch between so many virtual threads while executing a single platform thread? If you did then this talk is for you. A Continuation is the magic that powers Virtual Threads. It can be viewed as a representation of the current state of the program or it can be viewed as a reference to the rest of the program. It helps us to pause execution of a program (or part thereof) and then resume it later. This ability to pause/resume is a powerful mechanism and is the basis for providing virtual threads. In this talk, we will start with explaining what continuations are and how does Continuation API in Java work. We will also explore the uses of continuations. And more importantly, we will write our own simple VirtualThread class using the Continuation API provided by JDK. This gives clear idea about the role of continuations in the nature of virtual threads." ,
+      "liked": true,
+      "attended": true
+    },
   ]
 }
