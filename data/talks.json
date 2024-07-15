@@ -1352,6 +1352,18 @@
       "description": "Spring for GraphQL 1.3 releases in May, 2024, just days before the Spring I/O conference, and less than a month after GraphQL Java 22. There are plenty of new features and themes to digest on both sides. From GraphQL Java, expect support for incremental delivery with defer and stream directives, oneOf input types where exactly one field is set and others are omitted, request execution insight, schema diffing, and more. From Spring for GraphQL, expect the GraphQlClient revisited for blocking vs non-blocking execution, new SSE transports based on the GraphQL over HTTP RFC, EntityMapping controller methods for federated schema types, integration with DGS code generation, and more. In addition, the Spring and DGS teams have collaborated on a common foundation for both projects." ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Generating embeddings for Yu-Gi-Oh Cards with NumPy",
+      "speakers": ["Antonio Feregrino"],
+      "date": "2024-06-16T15:00:00",
+      "location": "PyData London 2024",
+      "tags": ["data", "Yu-Gi-Oh"],
+      "url": "https://www.youtube.com/watch?v=kYtj7spnppE",
+      "duration": "PT30M",
+      "description": "In a world where data intersects with everything around us, trading card games like Yu-Gi-Oh! are not exempt from crossing paths with advanced data science techniques where the potential for innovation is immense. This talk at PyData focuses on the intersection of web-obtained data and NumPy to create an interesting approach for Yu-Gi-Oh! card recommendations." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
