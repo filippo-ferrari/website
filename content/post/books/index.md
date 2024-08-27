@@ -48,3 +48,4 @@ the [F] tag means that the book is available freely online. A great starting poi
 - [Linux Bible](https://books.google.it/books/about/Linux_Bible.html?id=5rDbDwAAQBAJ&redir_esc=y)
 - [Linux basics for Hakers](https://nostarch.com/linuxbasicsforhackers)
 - [Just for Fun: The Story of an Accidental Revolutionary](https://www.google.it/books/edition/Just_for_Fun/--K-DvEj7yAC)
+- [Linux Device Drivers, Third Edition](https://lwn.net/Kernel/LDD3/)
