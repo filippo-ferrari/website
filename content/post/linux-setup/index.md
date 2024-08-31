@@ -82,7 +82,7 @@ i didn't customize the setup very much just:
 - lazygit 
 - other stuff I'm too lazy to remember
 
-Does this setup sucks for your usecase? Remove it with:
+Does this setup suck for your usecase? Remove it with:
 ```
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
@@ -117,6 +117,10 @@ You can query them via the ```hishtory``` CLI, it offers a wide range of persona
 - Syncing
 
 and more. I like it.
+
+## Backups: Pika Backup
+[Pika Backup](https://apps.gnome.org/PikaBackup/) is, as of right now, the easiest way i found to backup my Linux system. It allows you to do incremental backups, encrypt them, schedule them and run them remotely.
+It uses BorgBackup under the hood and is part of Gnome cirle apps.
 
 ## SWAG: neofetch
 do i need to say more? you can have it start at login to flex on r/unixporn, normal users will be most likely disgusted (rightfully so)
