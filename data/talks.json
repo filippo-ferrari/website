@@ -783,6 +783,18 @@
       "attended": false
     },
     {
+      "title": "Demystifying (& Bypassing) macOS's Background Task Management",
+      "speakers": ["Patrick Wardle"],
+      "date": "2023-06-12T10:00:00",
+      "location": "DEFCON31",
+      "tags": ["apple", "macOS"],
+      "url": "https://www.youtube.com/watch?v=GOoqEVhvNw8",
+      "duration": "PT45M",
+      "description": "To retain a foothold on an infected system, most Mac malware will persist; installing itself in a manner that ensures it will be automatically (re)launched each time the infected system is rebooted. In macOS Ventura, Apple's rearchitected core persistence mechanisms and added a new security mechanism that alerts the user any time an item is persisted. As the former is both undocumented and implemented in a proprietary manner this poses a problem for existing security and forensics tools (that aim to heuristically detect malware via unauthorized persistence events). On the other hand, the latter is problematic to malware authors, who obviously want their malicious creations to persist without an alert being shown to the user.",
+      "liked": true,
+      "attended": false
+    },
+    {
       "title": "The D Programming Language for Modern Open Source Development",
       "speakers": ["Mike Shah"],
       "date": "2024-02-02T16:00:00",
