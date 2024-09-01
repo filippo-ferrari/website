@@ -1306,6 +1306,18 @@
       "attended": true
     },
     {
+      "title": "Implementing Domain Driven Design with Spring",
+      "speakers": ["Maciej Walkowiak"],
+      "date": "2024-05-31T14:30:00",
+      "location": "Spring I/O 2024",
+      "tags": ["domain driven design", "java"],
+      "url": "https://www.youtube.com/watch?v=VGhg6Tfxb60",
+      "duration": "PT50M",
+      "description": "After years of Microservices hype, it seems that our industry now understands its costs and how difficult it is to build a distributed system. We are looking again towards building monolithic applications. But how can we develop monoliths that don’t turn into an unmaintainable mess? There is no single recipe, but we can say with a high degree of confidence that domain modeling techniques presented in Domain-Driven Design, in combination with Clean/Onion/Hexagonal Architecture, can significantly help in achieving clear and well-structured code aligned with the business needs." ,
+      "liked": true,
+      "attended": true
+    },
+    {
       "title": "Serverless Java with Spring",
       "speakers": ["Maximilian Schellhorn", "Dennis Kieselhorst"],
       "date": "2024-05-31T15:30:00",
