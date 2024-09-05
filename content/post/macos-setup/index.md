@@ -10,10 +10,8 @@ categories:
         - Linux
         - Linux-Mobile
 tags:
-        - linux
-        - postmarketos
-        - phosh
-        - mobile
+        - macos
+        - terminal
 ---
 This is a collection of tools I am using on my M1 Macbook Pro. Some of it is still a work in progress.
 
