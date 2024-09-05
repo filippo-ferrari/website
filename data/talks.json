@@ -1303,7 +1303,19 @@
       "duration": "PT50M",
       "description": "Have you wondered how virtual threads in Java are able to provide such high scalability? How is JVM able to switch between so many virtual threads while executing a single platform thread? If you did then this talk is for you. A Continuation is the magic that powers Virtual Threads. It can be viewed as a representation of the current state of the program or it can be viewed as a reference to the rest of the program. It helps us to pause execution of a program (or part thereof) and then resume it later. This ability to pause/resume is a powerful mechanism and is the basis for providing virtual threads. In this talk, we will start with explaining what continuations are and how does Continuation API in Java work. We will also explore the uses of continuations. And more importantly, we will write our own simple VirtualThread class using the Continuation API provided by JDK. This gives clear idea about the role of continuations in the nature of virtual threads." ,
       "liked": true,
-      "attended": true
+      "attended": false
+    },
+    {
+      "title": "Spring Security Architecture Principles",
+      "speakers": ["Daniel Garnier-Moiroux"],
+      "date": "2024-05-30T12:00:00",
+      "location": "Spring I/O 2024",
+      "tags": ["security", "java"],
+      "url": "https://www.youtube.com/watch?v=HyoLl3VcRFY",
+      "duration": "PT50M",
+      "description": "When you need to secure your application, you use Spring Security. It’s the de-facto standard, it’s robust, extensible, and brings sensible defaults to your application. But newcomers can feel lost as soon as they step out of the “Getting Started” guides and need to fine-tune the configuration to their specific use-cases. Developers can find themselves frantically copy-pasting from Stack Overflow until it kinda-sorta works." ,
+      "liked": true,
+      "attended": false
     },
     {
       "title": "Implementing Domain Driven Design with Spring",
@@ -1315,7 +1327,7 @@
       "duration": "PT50M",
       "description": "After years of Microservices hype, it seems that our industry now understands its costs and how difficult it is to build a distributed system. We are looking again towards building monolithic applications. But how can we develop monoliths that don’t turn into an unmaintainable mess? There is no single recipe, but we can say with a high degree of confidence that domain modeling techniques presented in Domain-Driven Design, in combination with Clean/Onion/Hexagonal Architecture, can significantly help in achieving clear and well-structured code aligned with the business needs." ,
       "liked": true,
-      "attended": true
+      "attended": false
     },
     {
       "title": "Bootiful Spring Boot 3.x",
@@ -1327,7 +1339,7 @@
       "duration": "PT50M",
       "description": "Spring Boot 3.x and Java 21 are here, and there’s never been a better time to be a Java developer! In this talk we’ll look at the incredible opportunities that lay ahead for the Spring Boot developer, and especially those using Java 21 and later. Spring Boot continues to offer the most sophisticated and robust ecosystem of integrations - supporting AI, GraphQL, easy data access, security (hello, Spring Authorization Server!), and so much more. And, it offers cutting edge support for production-centric optimizations like Project Loom’s virtual threads, Project CRaC, and GraalVM. Join me Spring Developer Advocate Josh Long (@starbuxman) and we’ll explore next-gen Spring together." ,
       "liked": true,
-      "attended": true
+      "attended": false
     },
     {
       "title": "Serverless Java with Spring",
@@ -1339,7 +1351,7 @@
       "duration": "PT50M",
       "description": "Serverless computing revolutionizes how we build and run applications by abstracting server management, delivering fine granular auto-scaling, and billing only for execution time. This enables developers to focus on code, not infrastructure. Join this talk to understand how you can build and deploy cloud-native and Serverless Spring applications. You will learn how to run already existing Spring Boot applications in a Serverless environment with the AWS Serverless Java container and its integration with the Spring ecosystem. You will also learn how-to develop new event-driven applications with Spring Cloud Function. We will also cover support for GraalVM native images, developer tooling and additional performance optimizations" ,
       "liked": true,
-      "attended": true
+      "attended": false
     },
     {
       "title": "Magical Beans and Mystery",
@@ -1351,7 +1363,7 @@
       "duration": "PT50M",
       "description": "o you just created a Spring Boot project at start.spring.io, but then what? Don’t worry! Tiffany was just there too, and now we are here to help. Join us as we explore Spring at a beginner’s pace.Even though Spring makes Java development so much easier, the initial learning curve can feel daunting (there are over 20 years of resources after all!). Let’s break down what to look at first, and how to continue learning from there. We’ll start with the Spring Framework and its core building blocks, such as the IoC container and these magical beans. Next, we’ll dive into Spring Boot, an extension of the Spring Framework that simplifies and speeds up application development through autoconfiguration for various integrations and more." ,
       "liked": true,
-      "attended": true
+      "attended": false
     },
     {
       "title": "Mind the gap, connecting high performance systems at a leading Crypto Exchange",
@@ -1363,7 +1375,7 @@
       "duration": "PT50M",
       "description": "As one of Europe’s leading Crypto Exchanges, Bitvavo enables its ~2 million customers to buy, sell and store over 200 digital assets and provides a 24/7 service processing many thousands of transactions per second with stable sub millisecond execution times on its order flow. In this talk we will deep dive on the high level architecture of Bitvavo Exchange and discuss how we use Spring Boot to bridge the integration and monitoring of our systems with the ultra low latency Exchange and Matching Engine Systems. We will cover architectural patterns, lessons learned and good practices routing and processing high volumes of market data to Databases and Kafka while maintaining the high performance and scalability required from the leading Crypto Exchange in Europe." ,
       "liked": true,
-      "attended": true
+      "attended": false
     },
     {
       "title": "Beyond Built-in: Advanced Testing Techniques for Spring Boot Applications ",
@@ -1375,7 +1387,7 @@
       "duration": "PT50M",
       "description": "Spring Boot ships with testing batteries included, and you know that. But what happens when you reach the end of all this? You will need to find additional libraries or come up with your solutions for extending the built-in capabilities. This session will provide you with exactly that. Libraries and custom-built extensions in combination with the great test support of Spring that I used to ease testing and solve challenges within my projects." ,
       "liked": true,
-      "attended": true
+      "attended": false
     },
     {
       "title": "GraphQL Java and Spring: The Latest Features",
@@ -1387,7 +1399,7 @@
       "duration": "PT50M",
       "description": "Spring for GraphQL 1.3 releases in May, 2024, just days before the Spring I/O conference, and less than a month after GraphQL Java 22. There are plenty of new features and themes to digest on both sides. From GraphQL Java, expect support for incremental delivery with defer and stream directives, oneOf input types where exactly one field is set and others are omitted, request execution insight, schema diffing, and more. From Spring for GraphQL, expect the GraphQlClient revisited for blocking vs non-blocking execution, new SSE transports based on the GraphQL over HTTP RFC, EntityMapping controller methods for federated schema types, integration with DGS code generation, and more. In addition, the Spring and DGS teams have collaborated on a common foundation for both projects." ,
       "liked": true,
-      "attended": true
+      "attended": false
     },
     {
       "title": "Generating embeddings for Yu-Gi-Oh Cards with NumPy",
