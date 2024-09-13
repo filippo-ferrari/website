@@ -1330,6 +1330,18 @@
       "attended": false
     },
     {
+      "title": "The Modern Monolith, with Spring Modulith",
+      "speakers": ["Cora Iberkleid"],
+      "date": "2024-05-31T10:00:00",
+      "location": "Spring I/O 2024",
+      "tags": ["domain driven design", "java", "modulith"],
+      "url": "https://www.youtube.com/watch?v=Pae2D4XcEIg",
+      "duration": "PT50M",
+      "description": "In the last decade, much emphasis has been placed on decomposing monoliths into microservices. While this practice has important benefits, including increased agility for development teams and independent lifecycle management for applications, it also introduces new complexities, such as managing many git repositories and many component deployments. In some cases, the benefits of monolith decomposition are absolutely necessary, but not in all. Sometimes we invite complexity for no good reason. In these cases, it behooves us to consider maintaining monolithic code bases. This does not mean, however, to revert back to the spaghetti monoliths of yesteryear, or to the cursory attempt to organize code into services of the SOA age. Instead, we must be sure to apply the hard-fought lessons from microservices and create a new paradigm for Modern Monoliths." ,
+      "liked": true,
+      "attended": false
+    },
+    {
       "title": "Bootiful Spring Boot 3.x",
       "speakers": ["Josh Long"],
       "date": "2024-05-31T12:30:00",
