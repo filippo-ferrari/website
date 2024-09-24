@@ -7,8 +7,7 @@ math:
 license: 
 hidden: false
 categories:
-        - Linux
-        - Linux-Mobile
+        - Programming
 tags:
         - macos
         - terminal
