@@ -1,5 +1,5 @@
 ---
-title: macOS setup
+title: macOS setup [WORK IN PROGRESS]
 description: A description of my current macOS development setup 
 date: 2024-09-04 00:00:00+0000
 image: macos-setup.png
