@@ -1448,6 +1448,18 @@
       "description": "Understanding Kubernetes as a whole can be daunting. With so many different components working together it can be hard to know how the pieces work together or where new products and features fit in. I will start at the highest level and then peel off the layers one at time to explain how some of the \"magic\" happens. Over the course of the presentation I will break Kubernetes into layers" ,
       "liked": true,
       "attended": true
+    },
+    {
+      "title": "Life of a Packet",
+      "speakers": ["Michael Rubin"],
+      "date": "2017-03-30T12:15:00",
+      "location": "KubeCon/CloudNativeCon",
+      "tags": ["kubernetes"],
+      "url": "https://www.youtube.com/watch?v=0Omvgd7Hg1I",
+      "duration": "PT35M",
+      "description": "Tracing the path of network traffic in the kubernetes system. Clarifying which API objects map to implementation and how Google deploys this in GKE today. Attendees will learn about topics from how networking packets are processed when the cluster is working as designed and what are common problems when the cluster is being creative and surprising." ,
+      "liked": true,
+      "attended": true
     }
   ]
 }
