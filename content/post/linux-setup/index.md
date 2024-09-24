@@ -69,7 +69,7 @@ Again, if you ever want to be taken into consideration by the cool guys and gals
 All jokes aside [htop](https://htop.dev/) is a neat piece of software, very light and super useful, written in the mighty C language.
 
 ## Text editor: neovim
-Ok, big boys time, I use neovim as my main text editor both to play around in linux and to write code.\ 
+Ok, big boys time, I use neovim as my main text editor both to play around in linux and to write code.
 I use the [AstroVim](https://astronvim.com/) setup, it's a very "IDE-like" setup and you can go much more minimalistic if you need to.
 That being said i am constantly hopping among major neovim configs so this might very well change in the future.
 I didn't customize the setup very much just:
