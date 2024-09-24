@@ -1441,11 +1441,11 @@
       "title": "Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down",
       "speakers": ["Carson Anderson"],
       "date": "2017-12-07T11:10:00",
-      "location": "PyData London 2024",
-      "tags": ["internet"],
-      "url": "https://www.youtube.com/watch?v=4EmstuO0Em8",
-      "duration": "PT45M",
-      "description": "The enshittification of the internet wasn't inevitable. The old, good internet gave way to the enshitternet because we let our bosses enshittify it. We took away the constraints of competition, regulation, interop and tech worker power, and so when our bosses yanked on the big enshittification lever in the c-suite, it started to budge further and further, toward total enshittification. A new, good internet is possible - and necessary - and it needs you." ,
+      "location": "KubeCon/CloudNativeCon",
+      "tags": ["kubernetes"],
+      "url": "https://www.youtube.com/watch?v=90kZRyPcRZw",
+      "duration": "PT30M",
+      "description": "Understanding Kubernetes as a whole can be daunting. With so many different components working together it can be hard to know how the pieces work together or where new products and features fit in. I will start at the highest level and then peel off the layers one at time to explain how some of the \"magic\" happens. Over the course of the presentation I will break Kubernetes into layers" ,
       "liked": true,
       "attended": true
     }
