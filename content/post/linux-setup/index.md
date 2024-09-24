@@ -1,4 +1,4 @@
----
+---linux
 title: My linux userspace
 description: A collection of tools i use in my workflow
 image: linux.png
@@ -69,18 +69,21 @@ Again, if you ever want to be taken into consideration by the cool guys and gals
 All jokes aside [htop](https://htop.dev/) is a neat piece of software, very light and super useful, written in the mighty C language.
 
 ## Text editor: neovim
-ok, big boys time, i use vim as my main text editor both to play around in linux and to write code 
-i use [AstroVim](https://astronvim.com/) setup, its a very IDE like setup and you can go much more minimalistic if you need to.
+Ok, big boys time, I use neovim as my main text editor both to play around in linux and to write code.\ 
+I use the [AstroVim](https://astronvim.com/) setup, it's a very "IDE-like" setup and you can go much more minimalistic if you need to.
 That being said i am constantly hopping among major neovim configs so this might very well change in the future.
-i didn't customize the setup very much just:
+I didn't customize the setup very much just:
 - relative lines set to true
 - catcapuccin as my theme
 - path_display not truncated
 - telescope search with hidden files enabled
 - random nerdfont installed using this [guide](https://www.behova.net/install-nerd-font-on-arch-linux/) (i will probably copy it just in case this site cease to exists)
 - macro changes
-- lazygit 
+- lazygit for git version control
+- minor bindings changes
+- minor treesitter changes  
 - other stuff I'm too lazy to remember
+
 
 Does this setup suck for your usecase? Remove it with:
 ```
@@ -123,4 +126,4 @@ and more. I like it.
 It uses BorgBackup under the hood and is part of Gnome cirle apps.
 
 ## SWAG: neofetch
-do i need to say more? you can have it start at login to flex on r/unixporn, normal users will be most likely disgusted (rightfully so)
+Do i need to say more? You can have it start at login to flex on r/unixporn, normal linux users will be most likely disgusted (rightfully so)
