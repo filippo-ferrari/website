@@ -3,6 +3,7 @@ title: My Oneplus 6T Linux setup
 description: A description of my current Linux phone and it's setup
 date: 2024-02-23 00:00:00+0000
 image: postmarket.png
+weight: 2
 math: 
 license: 
 hidden: false

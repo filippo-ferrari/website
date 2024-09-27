@@ -3,6 +3,7 @@ title: A simple T400 Libreboot Guide
 description: Simplest Libreboot guide I can write
 date: 2024-01-22 00:00:00+0000
 image: libreboot.png
+weight: 2
 categories:
     - Libreboot
     - Thinkpad

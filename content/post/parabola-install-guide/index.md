@@ -3,6 +3,7 @@ title: Parabola Installation Guide
 description: A recap of the commands needed to have an encrypted, openRC Parabola setup.
 date: 2024-02-08 00:00:00+0000
 image: parabola.jpg
+weight: 2
 categories:
       - Linux
       - Libreboot

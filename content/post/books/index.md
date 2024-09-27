@@ -2,8 +2,8 @@
 title: Books
 description: The books I'm reading/I've read/I plan to read
 date: 2024-01-29 00:00:00+0000
-draft: false
 image: books.jpg
+weight: 2
 categories:
     - Programming
     - Books
