@@ -13,10 +13,10 @@ tags:
         - macos
         - terminal
 ---
-This is a collection of tools I am using on my M1 Macbook Pro. Some of it is still a work in progress.
+This is a collection of tools I am using on my M1 Macbook Pro. Most of it is still a work in progress.
 
-I am using the Yabai tiling window manager to replicate the setup i have on my Linux machines, Alacritty as my terminal emulator, Powerlever10k as zsh theme and more.
-Still, id first start with the changes i made in the system setting to remove most of the annoying and/or useless macOS features.
+I am using the Yabai tiling window manager and skhd as hotkey daemon to replicate the setup I have on my Linux machines as much as i can, Alacritty as my terminal emulator, Powerlever10k as zsh theme and more.
+I also made a number of changes in the system setting to remove most of the annoying and/or useless macOS features.
 
 ## System settings
 ### Desktop & Dock
@@ -39,12 +39,31 @@ Completely disable Siri, leave Spotlight unchanged, won't be using it anyway onc
 ## RayCast
 I use RayCast as an app launcher, although it can do way more things than just launch your apps, and if you're interested you can check the enormous amount of community plugins available.
 
-Download and install [RayCast](https://www.raycast.com/), follo the tutorial if necessary.\
-Disable **Window Manager** control
+Download and install [RayCast](https://www.raycast.com/), follow the tutorial if necessary.
+- Disable **Window Manager** control
+
 ## Homebrew
-A package manager for MacOS. Does what it's supposed to do, and you basically have no alterative.\
+A package manager for MacOS. Does what it's supposed to do, most of the times.\
 Can be installed as a RayCast plugin and used by opening RayCast and typing **brew**, but personally i find myself using it from the terminal almost always.
-Download and install [Homebrew](https://brew.sh/)
+- Download and install [Homebrew](https://brew.sh/)
+
+PS: I still have not looked but know there are (apparently) alternatives, in particular: MacPorts and pkgsrc.
+
 ## Hidden Bar
 Install Hidden Bar using Brew, it's an app that allows you to decide which icons you want to see and which icons you want to hide in your menu bar.\
 You will want to start this app at login.
+
+## Stats
+[Stats](https://github.com/exelban/stats) is an app for the Menu Bar that shows statistics about the hardware. CPU/GPU/RAM temps and usage, stuff like that.\
+I keep only the CPU temp and RAM usage in the bar and hid the rest using Hidden Bar.
+You can install Stats using RayCast's plugins or using Homebrew: `brew install --cask stats`
+
+## Alacritty
+
+## Oh My Zsh
+
+## Yabai
+
+## Powerlever10k
+
+## Skhd
