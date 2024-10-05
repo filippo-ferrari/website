@@ -41,6 +41,7 @@ the [F] tag means that the book is available freely online. A great starting poi
 - [Open non e' Free](https://eleuthera.it/files/materiali/ippolita_open_non_e_free.pdf) [F] [ITALIAN]
 - [Free as in Freedom](https://web.archive.org/web/20150103152231/https://static.fsf.org/nosvn/faif-2.0.pdf) [F]
 - [Bits and bolts: The past, present, and future of open hardware](https://opensource.com/resources/ebook/open-hardware) [F]
+- [The Internet Con: How to Seize the Means of Computation](https://www.amazon.com/Internet-How-Seize-Means-Computation/dp/1804291242)
 
 # Linux
 - [The Orange book pt. 2](https://www.autistici.org/orangebook2/) [F]
