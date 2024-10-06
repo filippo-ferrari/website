@@ -68,6 +68,7 @@ P.S. i still can't manage to make the TLP service work properly with runit, so i
 ## Task manager: htop
 Again, if you ever want to be taken into consideration by the cool guys and gals of the ricing sub-scene you have to have this process viewer.
 All jokes aside [htop](https://htop.dev/) is a neat piece of software, very light and super useful, written in the mighty C language.
+Bonus mention: [btop](https://github.com/aristocratos/btop), a newer, more complete version of htop, written in C++.
 
 ## Text editor: neovim
 Ok, big boys time, I use neovim as my main text editor both to play around in linux and to write code.
