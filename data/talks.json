@@ -1476,12 +1476,24 @@
     {
       "title": "Open Source Digital Forensic",
       "speakers": ["Alessandro Farina"],
-      "date": "2018-9-12T98:15:00",
+      "date": "2018-9-13T08:15:00",
       "location": "MOCA 2024",
       "tags": ["forensic", "hacking"],
       "url": "https://www.youtube.com/watch?v=PEiZ3PN7mQY",
       "duration": "PT45M",
       "description": "Importanza degli strumenti open-source in ambito forense: L'utilizzo di strumenti open-source o free software, meglio se con licenza GPLv3, in cui il codice sorgente è accessibile per l'ispezione, dovrebbe essere fondamentale per l’acquisizione, l’analisi ed in generale per le investigazioni. Gli strumenti open-source offrono trasparenza, consentendo agli esperti di verificare l'integrità e la sicurezza del codice. Consentono di ispezionare il codice con l’obiettivo di garantire l’assenza di vulnerabilità o di backdoor che potrebbero compromettere l'indagine. Inoltre, gli strumenti open-source possono essere personalizzati per soddisfare specifiche esigenze investigative e possono essere sottoposti a peer-review, migliorando la loro affidabilità e attendibilità nelle applicazioni forensi. Per moltissime attività di indagine e per numerosissimi casi, gli esperti sono purtroppo obbligati ad utilizzare strumenti completamente chiusi, dal punto di vista software, basati su tecnologie proprietarie che è impossibile ispezionare, gli unici test che è possibile fare con questi strumenti, sono quelli di verifica incrociata con altri strumenti (sempre closed) e/o di raffronto con l’analisi di device predisposti appositamente come “campioni”. Questa modalità di lavoro potremmo denominarla “black box” forensic." ,
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Kubernetes security fundamentals: scraping your cluster security",
+      "speakers": ["Aurelio Forese"],
+      "date": "2018-9-13T10:45:00",
+      "location": "MOCA 2024",
+      "tags": ["kubernetes", "microservices"],
+      "url": "https://www.youtube.com/watch?v=-FyYsjs2_8c",
+      "duration": "PT35M",
+      "description": "Securing a Kubernetes cluster involves dealing with challenging tasks and several potential intervention area. Our journey will begin with the analysis of the current Kubernetes security state of art exploring the different options we need to face when operating a cluster. Then we'll focus on the configuration and use of one of the most well-known solutions: policies engines. Join us and enjoy your flight over k8s security landscape!" ,
       "liked": true,
       "attended": false
     }
