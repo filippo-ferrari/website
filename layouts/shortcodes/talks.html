@@ -1,4 +1,5 @@
-{{ $json := getJSON "data/talks.json" }}
+<!-- Load talks.json from data folder -->
+{{ $json := site.Data.talks }}
 
 <!-- Extract unique locations -->
 {{ $locations := slice }}
@@ -67,3 +68,4 @@
         });
     }
 </script>
+
