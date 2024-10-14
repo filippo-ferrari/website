@@ -1520,6 +1520,18 @@
       "description": "Gestire nodi TOR puo' essere divertente, ma anche ben fastidioso, come farlo in Italia? Per spiegarlo vi racconteremo una storia che parte dal processo Ruby ter, arriva in Siria e finisce in una cantinetta piastrellata della Torino Liberty." ,
       "liked": true,
       "attended": false
+    },
+    {
+      "title": "Boot process for modern Linux",
+      "speakers": ["Danilo Spinella"],
+      "date": "2018-9-15T16:30:00",
+      "location": "MOCA 2024",
+      "tags": ["kernel", "linux"],
+      "url": "https://www.youtube.com/watch?v=QMZzxl1Gv1U",
+      "duration": "PT30M",
+      "description": "In the latest iterations of Linux, many features have been added regarding the Boot Process, including a new standard called BLS with support in GRUB2 and systemd-boot, Full Disk Encryption using TPM, and having the entire boot process signed, ensuring system integrity. Another interesting feature is soft-reboot, which is the ability to reboot the entire userspace, without rebooting the hardware or reloading the kernel like kexec does. In this talk we will talk about these features, and why the major actors are collaborating on them." ,
+      "liked": true,
+      "attended": false
     }
   ]
 }
