@@ -1508,6 +1508,18 @@
       "description": "Nftables, il sistema che molte distro Linux hanno iniziato a utilizzare come firewall, è stato negli ultimi anni preso di mira dagli attaccanti per via della sua alta complessità e facile programmabilità. Molti 0-days vengono identificati grazie all'analisi manuale del codice sorgente e, più frequentemente, al fuzzing con syzkaller, tramite la scrittura di specifiche grammatiche che definiscono le modalità d'interazione con i vari sottosistemi. Pur coprendo efficacemente la creazione delle regole, la grammatica di Nftables sembra non considerare molti casi d'uso delle regole del firewall, lasciando scoperta un'ampia superficie d'attacco. Questo talk descriverà come la copertura dello stack di rete è stata introdotta nel fuzzer per poi risolvere il problema della coverage incompleta e testare le regole di Nftables. Verranno poi mostrate le vulnerabilità rinvenute grazie a questa tecnica e le relative idee di exploitation per ottenere i privilegi di root su Linux." ,
       "liked": true,
       "attended": false
+    },
+    {
+      "title": "Fuzzing del firewall di Linux con syzkaller",
+      "speakers": ["Osservatorio Nessuno"],
+      "date": "2018-9-14T10:15:00",
+      "location": "MOCA 2024",
+      "tags": ["privacy", "tor"],
+      "url": "https://www.youtube.com/watch?v=Xf0T6RA_wr8",
+      "duration": "PT45M",
+      "description": "Gestire nodi TOR puo' essere divertente, ma anche ben fastidioso, come farlo in Italia? Per spiegarlo vi racconteremo una storia che parte dal processo Ruby ter, arriva in Siria e finisce in una cantinetta piastrellata della Torino Liberty." ,
+      "liked": true,
+      "attended": false
     }
   ]
 }
