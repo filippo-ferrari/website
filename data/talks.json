@@ -1438,6 +1438,30 @@
       "attended": false
     },
     {
+      "title": "Inside the FBI’s Secret Encrypted Phone Company ‘Anom’",
+      "speakers": ["Joseph Cox"],
+      "date": "2024-08-10T13:00:00",
+      "location": "DEFCON32",
+      "tags": ["fbi", "hacking"],
+      "url": "https://www.youtube.com/watch?v=uFyk5UOyNqI",
+      "duration": "PT40M",
+      "description": "In 2018, a secure communications app called Anom started to gain popularity among organized criminals. Soon, top tier drug traffickers were using it all over the world. Because they thought their messages were secure, smugglers and hitmen coordinated high stakes crimes across the platform. But Anom had a secret: it was secretly run by the FBI. For years Joseph Cox has investigated the inside story of Anom, speaking to people who coded the app, those who sold it, criminals who chatted across it, and the FBI agents who surreptitiously managed it. This new talk, building on details from his recent book DARK WIRE, will include never-before-published technical details on how the Anom network functioned, how the backdoor itself worked, and how Anom grew to such a size that the FBI started to lose control of its own creation. " ,
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "Where’s the Money: Defeating ATM Disk Encryption",
+      "speakers": ["Matt Burch"],
+      "date": "2024-08-09T10:00:00",
+      "location": "DEFCON32",
+      "tags": ["atm", "hacking"],
+      "url": "https://www.youtube.com/watch?v=lF8NEsl3-kQ",
+      "duration": "PT45M",
+      "description": "Holding upwards of $400,000, ATMs continue to be a target of opportunity and have seen over a 600% increase in crime in just the last few years. During this time, I led security research with another colleague into the enterprise ATM industry resulting in the discovery of 6 zero-day vulnerabilities affecting Diebold Nixdorf’s Vynamic Security Suite (VSS), the most prolific ATM security solution in the market. 10 minutes or less is all that a malicious actor would need to gain full control of any system running VSS via offline code injection and decryption of the primary Windows OS. Diebold Nixdorf is one of three major North American enterprise class ATM manufacturers with a global presence in the financial, casino/gaming, and point-of-sale markets. Similar attack surfaces are currently being used in the wild and impact millions of systems across the globe. Furthermore, VSS is known to be present throughout the US gaming industry, including most of the ATM/cash-out systems across Vegas." ,
+      "liked": true,
+      "attended": false
+    },
+    {
       "title": "Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down",
       "speakers": ["Carson Anderson"],
       "date": "2017-12-07T11:10:00",
