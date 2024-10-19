@@ -1474,6 +1474,30 @@
       "attended": false
     },
     {
+      "title": "Measuring the Tor Network",
+      "speakers": ["Silvia Puglisi", "Roger Dingledine"],
+      "date": "2024-08-10T15:00:00",
+      "location": "DEFCON32",
+      "tags": ["tor", "hacking", "network"],
+      "url": "https://www.youtube.com/watch?v=n8w85LpRplY",
+      "duration": "PT45M",
+      "description": "Millions of people around the world use Tor every day to protect themselves from surveillance and censorship. While the Tor Browser and its protocol are widely known, the backbone of the Tor ecosystem, its extensive network of volunteer relays, is often subject to speculation and misinformation. The Tor Project is dedicated to supporting this network and fostering a vibrant, diverse community of relay operators. This talk will focus on our efforts to maintain a healthy network and community, and detect and mitigate attacks -- all with the help of metrics and analysis of usage patterns. By illustrating how we collect safe-enough metrics for an anonymity network, we will offer insights into how we identify unusual activity and other noteworthy events on the network. We will also discuss our ongoing strategies for addressing current and future network health challenges." ,
+      "liked": true,
+      "attended": false
+    },
+    {
+      "title": "ACE up the Sleeve: From getting JTAG on the iPhone 15 to hacking into Apple's new USB-C Controller",
+      "speakers": ["Thomas stacksmashing Roth "],
+      "date": "2024-08-10T14:30:00",
+      "location": "DEFCON32",
+      "tags": ["apple", "iphone", "hacking"],
+      "url": "https://www.youtube.com/watch?v=cFW0sYSo7ZM",
+      "duration": "PT45M",
+      "description": "With the iPhone 15 & iPhone 15 Pro Apple switched their iPhone to USB-C - and introduced a new proprietary USB-C controller: The ACE3. But the ACE3 does more than just handle USB power delivery: It's a full microcontroller running a full USB stack connected to some of the internal busses of the device, and we even managed to access JTAG on the iPhone 15 through it. It also provides access to UART, the internal SPMI bus, etc. Previous variants of the ACE, namely the ACE2 found in MacBooks, could easily be dumped and analyzed using SWD - and even be persistently backdoored through a software vulnerability we found. On the ACE3 however, Apple upped their game: Firmware updates are personalized, debug interfaces seem to be disabled, and the external flash is validated and does not contain all the firmware. However using a combination of reverse-engineering, RF side-channel analysis and electro-magnetic fault-injection it was possible to gain code-execution on the ACE3 - allowing dumping of the ROM, and analysis of the functionality." ,
+      "liked": true,
+      "attended": false
+    },
+    {
       "title": "Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down",
       "speakers": ["Carson Anderson"],
       "date": "2017-12-07T11:10:00",
