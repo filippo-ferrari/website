@@ -1462,6 +1462,18 @@
       "attended": false
     },
     {
+      "title": "The XZ Backdoor Story: The Undercover Operation That Set the Internet on Fire",
+      "speakers": ["Thomas Roccia"],
+      "date": "2024-08-09T11:00:00",
+      "location": "DEFCON32",
+      "tags": ["backdoor", "hacking", "linux"],
+      "url": "https://www.youtube.com/watch?v=lF8NEsl3-kQ",
+      "duration": "PT45M",
+      "description": "On Fri, 29 Mar 2024, at exactly 08:51:26, OSS security received a message from Andres Freund, a software engineer at Microsoft, stating he had discovered a backdoor in upstream xz/liblzma that could compromise SSH servers. The open-source project XZ, specifically the liblzma library, has been compromised by a mysterious maintainer named Jia Tan, putting the entire internet at risk. Fortunately, this discovery helped us avoid the worst. But what happened? How long has this rogue maintainer been part of the project? Who is Jia Tan? Was he involved in other projects? How does the backdoor work? And what should we learn from this?" ,
+      "liked": true,
+      "attended": false
+    },
+    {
       "title": "Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down",
       "speakers": ["Carson Anderson"],
       "date": "2017-12-07T11:10:00",
