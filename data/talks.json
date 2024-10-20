@@ -1498,6 +1498,18 @@
       "attended": false
     },
     {
+      "title": "Unsaflok: Hacking millions of hotel locks",
+      "speakers": ["Lennert Wouters", "Ian Carroll"],
+      "date": "2024-08-10T15:30:00",
+      "location": "DEFCON32",
+      "tags": ["locks", "hacking"],
+      "url": "https://www.youtube.com/watch?v=4cx0RUV7i0s",
+      "duration": "PT45M",
+      "description": "Electronic hotel locks have been in use for over three decades, and have become an integral part of the hospitality sector. Las Vegas has over 150.000 hotel rooms, many of which use an RFID based electronic lock for access control. Most hotel guests rely on these locks to safeguard personal belongings and to protect their personal safety. However, some of these long-deployed locks have never been publicly scrutinized by the research community." ,
+      "liked": true,
+      "attended": false
+    },
+    {
       "title": "Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down",
       "speakers": ["Carson Anderson"],
       "date": "2017-12-07T11:10:00",
