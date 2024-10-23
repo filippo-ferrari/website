@@ -95,12 +95,13 @@ cryptsetup open /dev/sdX2 partition-name
 ```
 We now decrypt the partition and assign a name to it (the name can be a random string, it will change later anyhow)
 If we now run ```lsblk``` we should see something like this:
-``
+```
 NAME                MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
 nvme0n1             259:0    0 476.9G  0 disk
 ├─nvme0n1p1         259:1    0     1G  0 part  
 └─nvme0n1p2         259:2    0 475.9G  0 part
   └─partition-name  254:0    0 475.9G  0 crypt 
+```
 
 ## Create filesystem for partition-name
 Create a [btrfs](https://wiki.archlinux.org/title/btrfs) partition on the decrypted partition
