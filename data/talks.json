@@ -1522,6 +1522,18 @@
       "attended": false
     },
     {
+      "title": "DEF CON 32 - Spies and Bytes: Victory in the Digital Age",
+      "speakers": ["General Paul M Nakasone"],
+      "date": "2024-08-9T10:30:00",
+      "location": "DEFCON32",
+      "tags": ["hakcinh", "military"],
+      "url": "https://www.youtube.com/watch?v=Fd6v9NXmszM",
+      "duration": "PT45M",
+      "description": "Join General Paul M. Nakasone, U.S. Army (Retired), for a deep dive into the realities of modern cyber warfare at DefCon. With critical stories from his extensive career, General Nakasone will expose the details of national security in the digital era. The longest-serving leader of both the National Security Agency and U.S. Cyber Command, General Nakasone has been on the frontlines of America's cyber defense. He will share firsthand accounts of defending against nation-state hackers, securing critical infrastructure during global crises, and the strategies that kept adversaries at bay. This talk will examine the evolving nature of conflict, where the battlefield extends into cyberspace and unique partnerships must be built to offer agility and resilience. General Nakasone will discuss the persistent threats posed by sophisticated hackers and the innovative defenses employed to counteract them. He’ll delve into the importance of intelligence sharing, international alliances, and transparency in operations." ,
+      "liked": true,
+      "attended": false
+    },
+    {
       "title": "Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down",
       "speakers": ["Carson Anderson"],
       "date": "2017-12-07T11:10:00",
