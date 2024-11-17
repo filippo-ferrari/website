@@ -35,6 +35,7 @@ the [F] tag means that the book is available freely online. A great starting poi
 - [Designing Data-intensive Applications](https://books.google.it/books/about/Designing_Data_intensive_Applications.html?id=BM7woQEACAAJ&redir_esc=y)
 - [Growing Object-Oriented Software Guided by Tests](http://growing-object-oriented-software.com/)
 - [Java Concurrency In Practice](https://www.google.it/books/edition/Java_Concurrency_in_Practice/mzgFCAAAQBAJ)
+- [System Design Interview – An insider's guide](https://books.google.it/books/about/System_Design_Interview.html?id=TZWmzQEACAAJ&redir_esc=y)
 
 # Open Source/ Free software
 - [The Cathedral and the Bazaar](https://www.google.it/books/edition/The_Cathedral_the_Bazaar/F6qgFtLwpJgC?hl=en&gbpv=0)
