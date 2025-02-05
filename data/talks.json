@@ -1628,6 +1628,18 @@
       "description": "In the latest iterations of Linux, many features have been added regarding the Boot Process, including a new standard called BLS with support in GRUB2 and systemd-boot, Full Disk Encryption using TPM, and having the entire boot process signed, ensuring system integrity. Another interesting feature is soft-reboot, which is the ability to reboot the entire userspace, without rebooting the hardware or reloading the kernel like kexec does. In this talk we will talk about these features, and why the major actors are collaborating on them." ,
       "liked": true,
       "attended": false
+    },
+    {
+      "title": "10 years of emulating the Nintendo 3DS: A tale of ninjas, lemons, and pandas",
+      "speakers": ["neobrain"],
+      "date": "2024-12-28T16:00:00",
+      "location": "38C3",
+      "tags": ["emulation", "nintendo"],
+      "url": "https://media.ccc.de/v/38c3-10-years-of-emulating-the-nintendo-3ds-a-tale-of-ninjas-lemons-and-pandas",
+      "duration": "PT30M",
+      "description": "How is 3DS preservation faring 10 years after the release of the first emulator? What technical obstacles have we overcome, which ones remain? What hidden gems have we discovered beyond games? Join us on a journey through the struggles, the successes, and the future of 3DS emulation!" ,
+      "liked": true,
+      "attended": false
     }
   ]
 }
